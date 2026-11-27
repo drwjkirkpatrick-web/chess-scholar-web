@@ -4,10 +4,13 @@
 
 @layer base {
   body {
-    @apply font-body antialiased;
+    font-family: system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   h1, h2, h3, h4 {
-    @apply font-display font-bold;
+    font-family: system-ui, -apple-system, sans-serif;
+    font-weight: 700;
   }
 }
 
@@ -19,95 +22,185 @@
     @apply bg-white rounded-2xl shadow-md hover:shadow-lg transition-shadow p-6;
   }
   .btn-primary {
-    @apply inline-flex items-center gap-2 bg-chess-gold hover:bg-chess-goldLight text-chess-bark font-bold px-6 py-3 rounded-full transition-colors shadow-md;
+    @apply inline-flex items-center gap-2 font-bold px-6 py-3 rounded-full transition-colors shadow-md;
+    background-color: #C9A227;
+    color: #2D1810;
+  }
+  .btn-primary:hover {
+    background-color: #E5C555;
   }
   .btn-secondary {
-    @apply inline-flex items-center gap-2 bg-chess-bark/30 hover:bg-chess-bark/50 text-white font-bold px-6 py-3 rounded-full transition-colors shadow-md backdrop-blur-sm;
+    @apply inline-flex items-center gap-2 font-bold px-6 py-3 rounded-full transition-colors shadow-md backdrop-blur-sm;
+    background-color: rgba(45, 24, 16, 0.3);
+    color: white;
+  }
+  .btn-secondary:hover {
+    background-color: rgba(45, 24, 16, 0.5);
   }
   .badge {
     @apply inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm font-semibold;
   }
   .tier-badge-pawn {
-    @apply bg-gray-300/30 text-gray-700;
+    background-color: rgba(160, 160, 160, 0.15);
+    color: #374151;
   }
   .tier-badge-knight {
-    @apply bg-amber-600/15 text-amber-700;
+    background-color: rgba(205, 133, 63, 0.15);
+    color: #92400e;
   }
   .tier-badge-bishop {
-    @apply bg-blue-600/15 text-blue-700;
+    background-color: rgba(65, 105, 225, 0.15);
+    color: #1e40af;
   }
   .tier-badge-rook {
-    @apply bg-red-800/15 text-red-800;
+    background-color: rgba(139, 0, 0, 0.15);
+    color: #7f1d1d;
   }
   .tier-badge-queen {
-    @apply bg-purple-600/15 text-purple-700;
+    background-color: rgba(153, 50, 204, 0.15);
+    color: #6b21a8;
   }
   .tier-badge-king {
-    @apply bg-yellow-500/20 text-yellow-700;
+    background-color: rgba(201, 162, 39, 0.2);
+    color: #854d0e;
   }
 }
 
 /* Markdown content styling on lesson pages */
 .prose-chess {
-  @apply text-chess-bark leading-relaxed;
+  color: #2D1810;
+  line-height: 1.625;
 }
 .prose-chess h1 {
-  @apply text-3xl font-bold text-chess-bark mb-4;
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #2D1810;
+  margin-bottom: 1rem;
 }
 .prose-chess h2 {
-  @apply text-2xl font-bold text-chess-gold mt-8 mb-4 pb-2 border-b-2 border-chess-dark/30;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #C9A227;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(119, 149, 86, 0.3);
 }
 .prose-chess h3 {
-  @apply text-xl font-bold text-chess-barkLight mt-6 mb-3;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #5C3A28;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
 }
 .prose-chess h4 {
-  @apply text-lg font-bold text-chess-barkLight mt-4 mb-2;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #5C3A28;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 .prose-chess p {
-  @apply my-3;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 .prose-chess ul {
-  @apply list-disc list-inside my-3 space-y-1;
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.prose-chess ul li {
+  margin-bottom: 0.25rem;
+  line-height: 1.625;
 }
 .prose-chess ol {
-  @apply list-decimal list-inside my-3 space-y-1;
+  list-style-type: decimal;
+  list-style-position: inside;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
-.prose-chess li {
-  @apply leading-relaxed;
+.prose-chess ol li {
+  margin-bottom: 0.25rem;
+  line-height: 1.625;
 }
 .prose-chess strong {
-  @apply font-bold text-chess-bark;
+  font-weight: 700;
+  color: #2D1810;
 }
 .prose-chess blockquote {
-  @apply border-l-4 border-chess-gold bg-chess-gold/5 pl-4 py-2 my-4 italic text-chess-barkLight rounded-r-lg;
+  border-left: 4px solid #C9A227;
+  background-color: rgba(201, 162, 39, 0.05);
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+  color: #5C3A28;
+  border-radius: 0 0.5rem 0.5rem 0;
 }
 .prose-chess code {
-  @apply bg-chess-bark/10 text-chess-bark px-1.5 py-0.5 rounded text-sm font-mono;
+  background-color: rgba(45, 24, 16, 0.1);
+  color: #2D1810;
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  font-family: ui-monospace, monospace;
 }
 .prose-chess pre {
-  @apply bg-chess-bark text-chess-cream rounded-xl p-4 my-4 overflow-x-auto text-sm;
+  background-color: #2D1810;
+  color: #FFF8E7;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  overflow-x: auto;
+  font-size: 0.875rem;
 }
 .prose-chess pre code {
-  @apply bg-transparent text-chess-cream p-0;
+  background-color: transparent;
+  color: #FFF8E7;
+  padding: 0;
 }
 .prose-chess table {
-  @apply w-full my-4 border-collapse;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-collapse: collapse;
 }
 .prose-chess th {
-  @apply bg-chess-gold/20 text-chess-bark font-bold text-left p-3 border border-chess-gold/30 rounded-t-lg;
+  background-color: rgba(201, 162, 39, 0.2);
+  color: #2D1810;
+  font-weight: 700;
+  text-align: left;
+  padding: 0.75rem;
+  border: 1px solid rgba(201, 162, 39, 0.3);
 }
 .prose-chess td {
-  @apply p-3 border border-chess-gold/20 text-sm;
+  padding: 0.75rem;
+  border: 1px solid rgba(201, 162, 39, 0.2);
+  font-size: 0.875rem;
 }
 .prose-chess tr:nth-child(even) {
-  @apply bg-chess-creamDark/50;
+  background-color: rgba(245, 237, 216, 0.5);
 }
 .prose-chess hr {
-  @apply my-6 border-chess-dark/30;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-color: rgba(119, 149, 86, 0.3);
 }
 .prose-chess a {
-  @apply text-chess-bishop underline hover:text-chess-bishop/80;
+  color: #4169E1;
+  text-decoration: underline;
+}
+.prose-chess a:hover {
+  color: rgba(65, 105, 225, 0.8);
 }
 .prose-chess img {
-  @apply rounded-xl my-4 max-w-full h-auto;
+  border-radius: 0.75rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  max-width: 100%;
+  height: auto;
 }
