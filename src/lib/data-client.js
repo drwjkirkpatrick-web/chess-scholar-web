@@ -19,6 +19,12 @@ export function getTiers() {
   };
 }
 
+export function getFeaturedLessons() {
+  // One featured lesson per tier (first lesson of each tier)
+  const tiers = ['pawn', 'knight', 'bishop', 'rook', 'queen', 'king'];
+  return tiers.map(t => lessonsData.lessons.find(l => l.tier === t)).filter(Boolean);
+}
+
 export function getLessonsByTier(tierKey) {
   return lessonsData.lessons.filter((l) => l.tier === tierKey);
 }

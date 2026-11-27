@@ -1,95 +1,156 @@
-'use client';
-
 import Link from 'next/link';
+import PageShell from '@/components/PageShell';
+import LessonCard from '@/components/LessonCard';
+import { getAllLessons, getTiers, getFeaturedLessons } from '@/lib/data-client';
 
 export default function HomePage() {
-  const tiers = [
-    { key: 'pawn', emoji: '♙', name: 'Pawn Tier', desc: 'The Foundation', color: 'text-tier-pawn', ages: '8–10', count: 10 },
-    { key: 'knight', emoji: '♘', name: 'Knight Tier', desc: 'Tactics & Patterns', color: 'text-tier-knight', ages: '10–12', count: 10 },
-    { key: 'bishop', emoji: '♗', name: 'Bishop Tier', desc: 'Strategy & Planning', color: 'text-tier-bishop', ages: '12–14', count: 10 },
-    { key: 'rook', emoji: '♖', name: 'Rook Tier', desc: 'Calculation & Combinations', color: 'text-tier-rook', ages: '12–14', count: 10 },
-    { key: 'queen', emoji: '♕', name: 'Queen Tier', desc: 'Mastery & Synthesis', color: 'text-tier-queen', ages: '14–16', count: 5 },
-    { key: 'king', emoji: '♔', name: 'King Tier', desc: 'Wisdom & Teaching', color: 'text-tier-king', ages: '14–16', count: 5 },
-  ];
+  const lessons = getAllLessons();
+  const tiers = getTiers();
+  const featured = getFeaturedLessons();
 
   return (
-    <div>
-      {/* Hero */}
-      <section className="bg-gradient-to-br from-chess-bark to-chess-accent text-chess-cream py-20">
-        <div className="container-x text-center">
-          <p className="text-6xl mb-4">♟️</p>
-          <h1 className="text-5xl font-bold mb-4">Chess Scholar</h1>
-          <p className="text-xl text-chess-gold mb-2">50 Lessons from Pawn to King</p>
-          <p className="text-lg text-chess-cream/80 max-w-2xl mx-auto">
-            A perfectly scaffolded chess curriculum. Each piece becomes a mentor.
-            Every lesson builds on the last. From absolute beginner to master teacher.
+    <PageShell>
+      {/* Hero Section */}
+      <section className="relative overflow-hidden bg-gradient-to-br from-chess-bark via-chess-barkLight to-chess-gold text-white">
+        <div className="absolute inset-0 opacity-10 text-9xl flex items-center justify-center select-none pointer-events-none">
+          ♟️♞♝♜♛♚
+        </div>
+        <div className="container-x relative py-20 md:py-28 text-center">
+          <p className="text-5xl md:text-7xl mb-4 animate-bounce-slow">♟️</p>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">
+            Chess Scholar
+          </h1>
+          <p className="text-xl md:text-2xl mb-2 font-medium drop-shadow">
+            100 Lessons from Pawn to King
           </p>
-          <div className="mt-8 flex justify-center gap-4">
-            <Link
-              href="/lessons/"
-              className="bg-chess-gold text-chess-bark px-6 py-3 rounded-lg font-bold hover:bg-yellow-400 transition"
-            >
-              Explore All 50 Lessons
+          <p className="text-base md:text-lg mb-8 text-white/90 max-w-2xl mx-auto">
+            A perfectly scaffolded chess curriculum. Volume 1: Foundations (Lessons 1–50).
+            Volume 2: Opening Encyclopedia (Lessons 51–100). Every piece becomes a mentor.
+          </p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Link href="/lessons" className="btn-primary bg-white text-chess-bark hover:bg-chess-cream">
+              📚 Explore 100 Lessons
+            </Link>
+          </div>
+        </div>
+        {/* Wavy bottom */}
+        <div className="h-8 bg-chess-cream" style={{ clipPath: 'polygon(0 50%, 100% 0, 100% 100%, 0 100%)' }} />
+      </section>
+
+      {/* Stats Bar */}
+      <section className="bg-chess-cream py-8">
+        <div className="container-x grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+          <div className="card !shadow-none bg-chess-creamDark">
+            <p className="text-4xl font-bold text-chess-gold">100</p>
+            <p className="text-sm text-chess-barkLight">Lesson Plans</p>
+          </div>
+          <div className="card !shadow-none bg-chess-creamDark">
+            <p className="text-4xl font-bold text-chess-dark">6</p>
+            <p className="text-sm text-chess-barkLight">Skill Tiers</p>
+          </div>
+          <div className="card !shadow-none bg-chess-creamDark">
+            <p className="text-4xl font-bold text-chess-bark">50+</p>
+            <p className="text-sm text-chess-barkLight">Opening Systems</p>
+          </div>
+          <div className="card !shadow-none bg-chess-creamDark">
+            <p className="text-4xl font-bold text-chess-gold">8–16</p>
+            <p className="text-sm text-chess-barkLight">Age Range</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Tier Overview */}
+      <section className="py-16">
+        <div className="container-x">
+          <h2 className="text-3xl font-bold text-center text-chess-bark mb-2">
+            🎯 Six Tiers of Mastery
+          </h2>
+          <p className="text-center text-chess-barkLight mb-10 max-w-2xl mx-auto">
+            From learning how the Pawn moves to teaching others — every chess player
+            starts somewhere and grows at their own pace.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {Object.entries(tiers).map(([key, tier]) => {
+              const count = lessons.filter((l) => l.tier === key).length;
+              return (
+                <Link key={key} href={`/lessons?tier=${key}`} className="card text-center group hover:-translate-y-1 transition-transform">
+                  <p className="text-5xl mb-3">{tier.emoji}</p>
+                  <h3 className="text-xl font-bold text-chess-bark mb-1">{tier.name}</h3>
+                  <p className="text-chess-gold font-semibold mb-2">{tier.label}</p>
+                  <p className="text-xs text-chess-barkLight mb-3">Ages {tier.ages} · {count} lessons</p>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Lessons */}
+      <section className="py-16 bg-chess-creamDark/50">
+        <div className="container-x">
+          <h2 className="text-3xl font-bold text-center text-chess-bark mb-2">
+            ⭐ Featured Lessons
+          </h2>
+          <p className="text-center text-chess-barkLight mb-10">
+            One lesson from each tier to get you started.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {featured.map((lesson) => (
+              <LessonCard key={lesson.slug} lesson={lesson} />
+            ))}
+          </div>
+          <div className="text-center mt-10">
+            <Link href="/lessons" className="btn-primary">
+              See All 100 Lessons →
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Tiers Overview */}
+      {/* Volume Overview */}
       <section className="py-16">
         <div className="container-x">
-          <h2 className="text-3xl font-bold text-center mb-12">The Six Skill Tiers</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {tiers.map((t) => (
-              <Link
-                key={t.key}
-                href={`/lessons/?tier=${t.key}`}
-                className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition border-t-4 border-current"
-              >
-                <div className={`text-4xl mb-2 ${t.color}`}>{t.emoji}</div>
-                <h3 className="text-xl font-bold">{t.name}</h3>
-                <p className="text-sm text-gray-600 mb-2">{t.desc}</p>
-                <p className="text-xs text-gray-500">Ages {t.ages} · {t.count} lessons</p>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Philosophy */}
-      <section className="py-16 bg-chess-light/30">
-        <div className="container-x max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-6">How Chess Scholar Works</h2>
-          <div className="space-y-6 text-left">
-            <div className="flex gap-4">
-              <span className="text-3xl">♙</span>
-              <div>
-                <h3 className="font-bold">Piece-Persona System</h3>
-                <p className="text-gray-700">Each chess piece becomes a mentor. The Pawn teaches patience. The Knight teaches creativity. The King teaches wisdom.</p>
-              </div>
+          <h2 className="text-3xl font-bold text-center text-chess-bark mb-2">
+            📚 Two Volumes, One Journey
+          </h2>
+          <p className="text-center text-chess-barkLight mb-10 max-w-2xl mx-auto">
+            Volume 1 teaches you how to play. Volume 2 teaches you what to play.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="card border-l-4 border-chess-gold">
+              <h3 className="text-xl font-bold text-chess-bark mb-2">Volume 1: Foundations</h3>
+              <p className="text-sm text-chess-barkLight mb-3">Lessons 1–50</p>
+              <p className="text-chess-barkLight">
+                The complete game: pieces, tactics, strategy, endgames, psychology, and teaching.
+                Piece-persona system scaffolds every concept.
+              </p>
             </div>
-            <div className="flex gap-4">
-              <span className="text-3xl">📐</span>
-              <div>
-                <h3 className="font-bold">One Concept Per Lesson</h3>
-                <p className="text-gray-700">No lesson introduces more than one new idea. Concepts return in later lessons through spaced repetition.</p>
-              </div>
-            </div>
-            <div className="flex gap-4">
-              <span className="text-3xl">🧩</span>
-              <div>
-                <h3 className="font-bold">Puzzles Before Theory</h3>
-                <p className="text-gray-700">Students encounter positions before memorizing rules. Every lesson includes interactive puzzles on the theme.</p>
-              </div>
+            <div className="card border-l-4 border-chess-dark">
+              <h3 className="text-xl font-bold text-chess-bark mb-2">Volume 2: Opening Encyclopedia</h3>
+              <p className="text-sm text-chess-barkLight mb-3">Lessons 51–100</p>
+              <p className="text-chess-barkLight">
+                50 opening systems: Open Games, Sicilian, Semi-Open, Closed Games, Indian Defenses,
+                Flank Openings, and Opening Mastery.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-chess-bark text-chess-cream py-8 text-center">
-        <p>Chess Scholar · Built with Next.js, react-chessboard & chess.js</p>
-      </footer>
-    </div>
+      {/* CTA */}
+      <section className="py-16 bg-gradient-to-r from-chess-bark to-chess-barkLight text-white text-center">
+        <div className="container-x">
+          <p className="text-5xl mb-4">♟️</p>
+          <h2 className="text-3xl font-bold mb-4">The Board Is Your Classroom</h2>
+          <p className="text-lg mb-8 max-w-2xl mx-auto text-white/90">
+            Every grandmaster started with Lesson 1. Every opening was once a mystery.
+            Start your chess journey today.
+          </p>
+          <Link href="/lessons" className="btn-primary bg-white text-chess-bark hover:bg-chess-cream">
+            Start Your Journey →
+          </Link>
+        </div>
+      </section>
+    </PageShell>
   );
 }

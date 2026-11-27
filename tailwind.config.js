@@ -1,7 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,jsx}',
+    './src/components/**/*.{js,jsx}',
+    './src/lib/**/*.{js,jsx}',
   ],
   theme: {
     extend: {
@@ -9,19 +11,21 @@ module.exports = {
         chess: {
           light: '#EBECD0',
           dark: '#779556',
-          bark: '#5D4037',
-          gold: '#D4AF37',
-          cream: '#F5F5DC',
-          accent: '#8B4513',
+          bark: '#2D1810',
+          barkLight: '#5C3A28',
+          gold: '#C9A227',
+          goldLight: '#E5C555',
+          cream: '#FFF8E7',
+          creamDark: '#F5EDD8',
+          sand: '#F0E6D2',
         },
-        tier: {
-          pawn: '#A0A0A0',
-          knight: '#CD853F',
-          bishop: '#4169E1',
-          rook: '#8B0000',
-          queen: '#9932CC',
-          king: '#FFD700',
-        }
+      },
+      fontFamily: {
+        display: ['system-ui', '-apple-system', 'sans-serif'],
+        body: ['system-ui', '-apple-system', 'sans-serif'],
+      },
+      animation: {
+        'bounce-slow': 'bounce 2s infinite',
       },
     },
   },

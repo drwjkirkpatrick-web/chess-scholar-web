@@ -4,17 +4,110 @@
 
 @layer base {
   body {
-    background-color: #F5F5DC;
-    color: #5D4037;
-    font-family: 'Georgia', 'Times New Roman', serif;
+    @apply font-body antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display font-bold;
   }
 }
 
 @layer components {
   .container-x {
-    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+    @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  .card {
+    @apply bg-white rounded-2xl shadow-md hover:shadow-lg transition-shadow p-6;
+  }
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-chess-gold hover:bg-chess-goldLight text-chess-bark font-bold px-6 py-3 rounded-full transition-colors shadow-md;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 bg-chess-bark/30 hover:bg-chess-bark/50 text-white font-bold px-6 py-3 rounded-full transition-colors shadow-md backdrop-blur-sm;
   }
   .badge {
-    @apply inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors;
+    @apply inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm font-semibold;
   }
+  .tier-badge-pawn {
+    @apply bg-gray-300/30 text-gray-700;
+  }
+  .tier-badge-knight {
+    @apply bg-amber-600/15 text-amber-700;
+  }
+  .tier-badge-bishop {
+    @apply bg-blue-600/15 text-blue-700;
+  }
+  .tier-badge-rook {
+    @apply bg-red-800/15 text-red-800;
+  }
+  .tier-badge-queen {
+    @apply bg-purple-600/15 text-purple-700;
+  }
+  .tier-badge-king {
+    @apply bg-yellow-500/20 text-yellow-700;
+  }
+}
+
+/* Markdown content styling on lesson pages */
+.prose-chess {
+  @apply text-chess-bark leading-relaxed;
+}
+.prose-chess h1 {
+  @apply text-3xl font-bold text-chess-bark mb-4;
+}
+.prose-chess h2 {
+  @apply text-2xl font-bold text-chess-gold mt-8 mb-4 pb-2 border-b-2 border-chess-dark/30;
+}
+.prose-chess h3 {
+  @apply text-xl font-bold text-chess-barkLight mt-6 mb-3;
+}
+.prose-chess h4 {
+  @apply text-lg font-bold text-chess-barkLight mt-4 mb-2;
+}
+.prose-chess p {
+  @apply my-3;
+}
+.prose-chess ul {
+  @apply list-disc list-inside my-3 space-y-1;
+}
+.prose-chess ol {
+  @apply list-decimal list-inside my-3 space-y-1;
+}
+.prose-chess li {
+  @apply leading-relaxed;
+}
+.prose-chess strong {
+  @apply font-bold text-chess-bark;
+}
+.prose-chess blockquote {
+  @apply border-l-4 border-chess-gold bg-chess-gold/5 pl-4 py-2 my-4 italic text-chess-barkLight rounded-r-lg;
+}
+.prose-chess code {
+  @apply bg-chess-bark/10 text-chess-bark px-1.5 py-0.5 rounded text-sm font-mono;
+}
+.prose-chess pre {
+  @apply bg-chess-bark text-chess-cream rounded-xl p-4 my-4 overflow-x-auto text-sm;
+}
+.prose-chess pre code {
+  @apply bg-transparent text-chess-cream p-0;
+}
+.prose-chess table {
+  @apply w-full my-4 border-collapse;
+}
+.prose-chess th {
+  @apply bg-chess-gold/20 text-chess-bark font-bold text-left p-3 border border-chess-gold/30 rounded-t-lg;
+}
+.prose-chess td {
+  @apply p-3 border border-chess-gold/20 text-sm;
+}
+.prose-chess tr:nth-child(even) {
+  @apply bg-chess-creamDark/50;
+}
+.prose-chess hr {
+  @apply my-6 border-chess-dark/30;
+}
+.prose-chess a {
+  @apply text-chess-bishop underline hover:text-chess-bishop/80;
+}
+.prose-chess img {
+  @apply rounded-xl my-4 max-w-full h-auto;
 }
