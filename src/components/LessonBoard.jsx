@@ -48,8 +48,10 @@ export default function LessonBoard({ fen, freePosition, pgn, caption, moveCount
     if (!pgn) return [];
     try {
       const c = new Chess();
-      if (!c.loadPgn(pgn)) return [];
-      return c.history();
+      // chess.js 1.x loadPgn returns undefined (throws on failure)
+      c.loadPgn(pgn);
+      const history = c.history();
+      return history.length > 0 ? history : [];
     } catch {
       return [];
     }
