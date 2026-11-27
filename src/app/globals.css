@@ -150,7 +150,7 @@
 }
 .prose-chess pre {
   background-color: #2D1810;
-  color: #FFF8E7;
+  color: #E8F4FD;
   border-radius: 0.75rem;
   padding: 1rem;
   margin-top: 1rem;
@@ -160,7 +160,7 @@
 }
 .prose-chess pre code {
   background-color: transparent;
-  color: #FFF8E7;
+  color: #E8F4FD;
   padding: 0;
 }
 .prose-chess table {
@@ -183,7 +183,7 @@
   font-size: 0.875rem;
 }
 .prose-chess tr:nth-child(even) {
-  background-color: rgba(245, 237, 216, 0.5);
+  background-color: rgba(214, 234, 248, 0.5);
 }
 .prose-chess hr {
   margin-top: 1.5rem;

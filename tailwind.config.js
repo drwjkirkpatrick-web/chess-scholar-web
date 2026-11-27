@@ -15,9 +15,9 @@ module.exports = {
           barkLight: '#5C3A28',
           gold: '#C9A227',
           goldLight: '#E5C555',
-          cream: '#FFF8E7',
-          creamDark: '#F5EDD8',
-          sand: '#F0E6D2',
+          cream: '#E8F4FD',
+          creamDark: '#D6EAF8',
+          sand: '#EBF5FB',
         },
       },
       fontFamily: {
