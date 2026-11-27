@@ -1,0 +1,2506 @@
+{
+  "lessons": [
+    {
+      "number": 1,
+      "slug": "lesson-01-the-board-and-the-pawn",
+      "title": "The Board & The Pawn",
+      "moduleRef": "Prompt 01",
+      "duration": "60 min",
+      "ageGroup": "8-10",
+      "tool": "Physical board",
+      "tier": "pawn",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Patience & Foundation",
+        "value": 1
+      },
+      "learningOutcomes": [
+        "**Name** all 64 squares on a chessboard using algebraic notation.",
+        "**Move** a Pawn correctly \u2014 one square forward, two on first move, diagonal capture.",
+        "**Value** patience and foundation \u2014 understanding that every grandmaster started by learning the board one square at a time."
+      ],
+      "inquiryQuestion": "How does the Pawn move forward one step at a time \u2014 and how can we use the same patience to build our chess skills step by step?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 2,
+      "slug": "lesson-02-the-rook",
+      "title": "The Rook",
+      "moduleRef": "Prompt 02",
+      "duration": "60 min",
+      "ageGroup": "8-10",
+      "tool": "Physical board",
+      "tier": "pawn",
+      "piece": {
+        "emoji": "\u2656",
+        "name": "Rook",
+        "trait": "Directness & Power",
+        "value": 5
+      },
+      "learningOutcomes": [
+        "**Move** a Rook correctly along ranks and files.",
+        "**Calculate** how many squares a Rook controls from any given position.",
+        "**Value** directness \u2014 understanding that sometimes the straight path is the most powerful."
+      ],
+      "inquiryQuestion": "How does the Rook charge straight down a corridor \u2014 and when is the direct path more powerful than the clever one?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 3,
+      "slug": "lesson-03-the-bishop",
+      "title": "The Bishop",
+      "moduleRef": "Prompt 03",
+      "duration": "60 min",
+      "ageGroup": "8-10",
+      "tool": "Physical board",
+      "tier": "pawn",
+      "piece": {
+        "emoji": "\u2657",
+        "name": "Bishop",
+        "trait": "Vision & Diagonals",
+        "value": 3
+      },
+      "learningOutcomes": [
+        "**Move** a Bishop correctly along diagonals.",
+        "**Identify** which color squares each bishop controls and why bishops are stuck on one color.",
+        "**Value** specialized vision \u2014 understanding that seeing from a unique angle is a strength, not a weakness."
+      ],
+      "inquiryQuestion": "How does the Bishop see the board from its diagonal angle \u2014 and why is being 'stuck' on one color actually a strength?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 4,
+      "slug": "lesson-04-the-queen",
+      "title": "The Queen",
+      "moduleRef": "Prompt 04",
+      "duration": "60 min",
+      "ageGroup": "8-10",
+      "tool": "Physical board",
+      "tier": "pawn",
+      "piece": {
+        "emoji": "\u2655",
+        "name": "Queen",
+        "trait": "Versatility & Combined Power",
+        "value": 9
+      },
+      "learningOutcomes": [
+        "**Move** the Queen correctly \u2014 combining Rook and Bishop powers.",
+        "**Compare** the Queen's movement to Rook + Bishop and understand why it is worth 9 points.",
+        "**Value** versatility \u2014 understanding that combining skills makes you more powerful than any single skill alone."
+      ],
+      "inquiryQuestion": "How did the Queen become the most powerful piece on the board \u2014 and what happens when you combine two strengths into one?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 5,
+      "slug": "lesson-05-the-king",
+      "title": "The King",
+      "moduleRef": "Prompt 05",
+      "duration": "60 min",
+      "ageGroup": "8-10",
+      "tool": "Physical board",
+      "tier": "pawn",
+      "piece": {
+        "emoji": "\u2654",
+        "name": "King",
+        "trait": "Importance & Vulnerability",
+        "value": "Infinite"
+      },
+      "learningOutcomes": [
+        "**Move** the King correctly \u2014 one square in any direction.",
+        "**Explain** why the King is the most important piece even though it moves slowly.",
+        "**Value** protection \u2014 understanding that the most valuable things often need the most care."
+      ],
+      "inquiryQuestion": "Why is the slowest-moving piece also the most important \u2014 and what does that teach us about leadership?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 6,
+      "slug": "lesson-06-the-knight",
+      "title": "The Knight",
+      "moduleRef": "Prompt 06",
+      "duration": "60 min",
+      "ageGroup": "8-10",
+      "tool": "Physical board",
+      "tier": "pawn",
+      "piece": {
+        "emoji": "\u2658",
+        "name": "Knight",
+        "trait": "Creativity & Jumping",
+        "value": 3
+      },
+      "learningOutcomes": [
+        "**Move** the Knight correctly in an L-shape.",
+        "**Identify** why the Knight is the only piece that can jump over others.",
+        "**Value** creative movement \u2014 understanding that doing things differently is not wrong, it's a superpower."
+      ],
+      "inquiryQuestion": "How does the Knight's weird L-shaped jump make it the most creative piece \u2014 and when is being different an advantage?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 7,
+      "slug": "lesson-07-castling",
+      "title": "Special Moves: Castling",
+      "moduleRef": "Prompt 07",
+      "duration": "60 min",
+      "ageGroup": "8-10",
+      "tool": "Physical board",
+      "tier": "pawn",
+      "piece": {
+        "emoji": "\u2654\u2656",
+        "name": "King & Rook",
+        "trait": "Teamwork & Safety",
+        "value": "Special"
+      },
+      "learningOutcomes": [
+        "**Execute** castling correctly \u2014 king-side and queen-side.",
+        "**Identify** all conditions that make castling illegal.",
+        "**Value** teamwork \u2014 understanding that the King and Rook protect each other by working together."
+      ],
+      "inquiryQuestion": "How do the King and Rook team up to keep the King safe \u2014 and when is the best time to castle?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 8,
+      "slug": "lesson-08-en-passant-promotion",
+      "title": "Special Moves: En Passant & Promotion",
+      "moduleRef": "Prompt 08",
+      "duration": "60 min",
+      "ageGroup": "8-10",
+      "tool": "Physical board",
+      "tier": "pawn",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Surprises & Rewards",
+        "value": 1
+      },
+      "learningOutcomes": [
+        "**Execute** en passant correctly.",
+        "**Explain** pawn promotion and why the Queen is almost always the best choice.",
+        "**Value** perseverance \u2014 understanding that even the weakest piece can become the strongest."
+      ],
+      "inquiryQuestion": "How can the weakest piece on the board become the strongest \u2014 and what does that teach us about never giving up?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 9,
+      "slug": "lesson-09-check-checkmate",
+      "title": "Check & Checkmate",
+      "moduleRef": "Prompt 09",
+      "duration": "60 min",
+      "ageGroup": "8-10",
+      "tool": "Physical board",
+      "tier": "pawn",
+      "piece": {
+        "emoji": "\u2654",
+        "name": "King",
+        "trait": "Threat & Escape",
+        "value": "Infinite"
+      },
+      "learningOutcomes": [
+        "**Distinguish** between check, checkmate, and stalemate.",
+        "**Identify** three ways to escape check: move the King, block the check, capture the attacker.",
+        "**Value** awareness \u2014 understanding that threats must be seen before they can be stopped."
+      ],
+      "inquiryQuestion": "What is the difference between a warning and a knockout \u2014 and how do you know when the game is truly over?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 10,
+      "slug": "lesson-10-stalemate-draws",
+      "title": "Stalemate & Draws",
+      "moduleRef": "Prompt 10",
+      "duration": "60 min",
+      "ageGroup": "8-10",
+      "tool": "Physical board",
+      "tier": "pawn",
+      "piece": {
+        "emoji": "\u2696\ufe0f",
+        "name": "Draw",
+        "trait": "Balance & Escape",
+        "value": "\u00bd"
+      },
+      "learningOutcomes": [
+        "**Identify** stalemate, insufficient material, threefold repetition, and the 50-move rule.",
+        "**Evaluate** when a draw is a good result versus when it is a missed opportunity.",
+        "**Value** resourcefulness \u2014 understanding that a draw is not a failure but a skillful escape."
+      ],
+      "inquiryQuestion": "How can a game with no winner still be a triumph \u2014 and when is escaping with a draw the smartest move?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 11,
+      "slug": "lesson-11-forks",
+      "title": "Forks",
+      "moduleRef": "Prompt 11",
+      "duration": "60 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + puzzles",
+      "tier": "knight",
+      "piece": {
+        "emoji": "\u2658",
+        "name": "Knight",
+        "trait": "Double Attack",
+        "value": 3
+      },
+      "learningOutcomes": [
+        "**Identify** a fork in a given position.",
+        "**Create** a fork using the Knight, Pawn, or Queen.",
+        "**Value** efficiency \u2014 understanding that one move that does two things is better than two moves that do one."
+      ],
+      "inquiryQuestion": "How can one Knight attack two targets at once \u2014 and what makes a fork the Knight's signature weapon?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 12,
+      "slug": "lesson-12-pins",
+      "title": "Pins",
+      "moduleRef": "Prompt 12",
+      "duration": "60 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + puzzles",
+      "tier": "knight",
+      "piece": {
+        "emoji": "\u2657",
+        "name": "Bishop",
+        "trait": "Line-of-Sight Pressure",
+        "value": 3
+      },
+      "learningOutcomes": [
+        "**Identify** absolute and relative pins.",
+        "**Explain** why a pinned piece cannot move without exposing a more valuable piece.",
+        "**Value** restraint \u2014 understanding that holding something in place can be as powerful as capturing it."
+      ],
+      "inquiryQuestion": "How does the Bishop hold an enemy piece hostage along a diagonal \u2014 and why can't the pinned piece simply walk away?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 13,
+      "slug": "lesson-13-skewers",
+      "title": "Skewers",
+      "moduleRef": "Prompt 13",
+      "duration": "60 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + puzzles",
+      "tier": "knight",
+      "piece": {
+        "emoji": "\u2656",
+        "name": "Rook",
+        "trait": "X-Ray Attack",
+        "value": 5
+      },
+      "learningOutcomes": [
+        "**Distinguish** between a pin and a skewer.",
+        "**Create** a skewer along a rank, file, or diagonal.",
+        "**Value** reversal \u2014 understanding that flipping a pattern (pin \u2192 skewer) creates a new weapon."
+      ],
+      "inquiryQuestion": "What happens when you flip a pin upside down \u2014 and how does the Rook's straight line become an X-ray weapon?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 14,
+      "slug": "lesson-14-discovered-attacks",
+      "title": "Discovered Attacks",
+      "moduleRef": "Prompt 14",
+      "duration": "60 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + puzzles",
+      "tier": "knight",
+      "piece": {
+        "emoji": "\u2655",
+        "name": "Queen",
+        "trait": "Unleashed Power",
+        "value": 9
+      },
+      "learningOutcomes": [
+        "**Identify** when moving one piece reveals an attack from another.",
+        "**Create** a discovered check by moving a blocking piece.",
+        "**Value** coordination \u2014 understanding that the power of one piece depends on the position of another."
+      ],
+      "inquiryQuestion": "How does moving one piece suddenly unleash the power of another \u2014 and why is the discovered attack chess's best surprise?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 15,
+      "slug": "lesson-15-removing-the-defender",
+      "title": "Removing the Defender",
+      "moduleRef": "Prompt 15",
+      "duration": "60 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + puzzles",
+      "tier": "knight",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Undermining",
+        "value": 1
+      },
+      "learningOutcomes": [
+        "**Identify** when a piece is defended by another and how to remove that defense.",
+        "**Calculate** trades where you capture the defender to win the defended piece.",
+        "**Value** persistence \u2014 understanding that attacking the guard is often easier than attacking the target."
+      ],
+      "inquiryQuestion": "How do you capture a piece that is protected \u2014 and why is attacking the guard sometimes smarter than attacking the treasure?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 16,
+      "slug": "lesson-16-deflection",
+      "title": "Deflection",
+      "moduleRef": "Prompt 16",
+      "duration": "60 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + puzzles",
+      "tier": "knight",
+      "piece": {
+        "emoji": "\u2658",
+        "name": "Knight",
+        "trait": "Forcing Moves",
+        "value": 3
+      },
+      "learningOutcomes": [
+        "**Identify** when a piece is overworked \u2014 defending two things at once.",
+        "**Create** a deflection by attacking one defended target to force the defender away.",
+        "**Value** precision \u2014 understanding that forcing the opponent to choose between two defenses creates an opening."
+      ],
+      "inquiryQuestion": "How do you make a piece choose between protecting two friends \u2014 and what happens when it can only save one?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 17,
+      "slug": "lesson-17-decoys-sacrifices",
+      "title": "Decoys & Sacrifices",
+      "moduleRef": "Prompt 17",
+      "duration": "60 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + puzzles",
+      "tier": "knight",
+      "piece": {
+        "emoji": "\u2655",
+        "name": "Queen",
+        "trait": "Luring the Enemy",
+        "value": 9
+      },
+      "learningOutcomes": [
+        "**Identify** when sacrificing a piece will lure the opponent into a trap.",
+        "**Calculate** a sacrifice that forces the King into a mating net.",
+        "**Value** courage \u2014 understanding that giving up material for a greater goal is the mark of a strong player."
+      ],
+      "inquiryQuestion": "When is giving away your most powerful piece the smartest move \u2014 and how do you know the sacrifice will pay off?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 18,
+      "slug": "lesson-18-back-rank-mates",
+      "title": "Back-rank Mates",
+      "moduleRef": "Prompt 18",
+      "duration": "60 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + puzzles",
+      "tier": "knight",
+      "piece": {
+        "emoji": "\u2656",
+        "name": "Rook",
+        "trait": "Corridor of Doom",
+        "value": 5
+      },
+      "learningOutcomes": [
+        "**Identify** when a King is trapped on the back rank with no escape squares.",
+        "**Create** a back-rank mate using Rook or Queen.",
+        "**Value** awareness \u2014 understanding that the edge of the board can be a prison, not a wall."
+      ],
+      "inquiryQuestion": "Why is the first row the most dangerous place for a King \u2014 and how does the Rook turn a corridor into a trap?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 19,
+      "slug": "lesson-19-mate-in-1",
+      "title": "Mate in 1 Patterns",
+      "moduleRef": "Prompt 19",
+      "duration": "60 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + puzzles",
+      "tier": "knight",
+      "piece": {
+        "emoji": "\u2654",
+        "name": "King",
+        "trait": "The Knockout Blow",
+        "value": "Infinite"
+      },
+      "learningOutcomes": [
+        "**Recognize** common mate-in-1 patterns: back rank, smothered, corner, corridor.",
+        "**Deliver** checkmate in one move from a given position.",
+        "**Value** finishing \u2014 understanding that recognizing the end is as important as playing the beginning."
+      ],
+      "inquiryQuestion": "How do you know when one move will end the game \u2014 and what patterns should you train your eyes to see instantly?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 20,
+      "slug": "lesson-20-mate-in-2",
+      "title": "Mate in 2 Introduction",
+      "moduleRef": "Prompt 20",
+      "duration": "70 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + puzzles",
+      "tier": "knight",
+      "piece": {
+        "emoji": "\u2655",
+        "name": "Queen",
+        "trait": "Thinking Ahead",
+        "value": 9
+      },
+      "learningOutcomes": [
+        "**Calculate** a forced mate in two moves.",
+        "**Explain** the concept of a 'forcing move' \u2014 check, capture, or threat.",
+        "**Value** foresight \u2014 understanding that the best players see the future before it happens."
+      ],
+      "inquiryQuestion": "How do you force your opponent into a mate they cannot escape \u2014 and what is the difference between a threat and a forced win?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 21,
+      "slug": "lesson-21-opening-principles",
+      "title": "Opening Principles",
+      "moduleRef": "Prompt 21",
+      "duration": "70 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Building the Foundation",
+        "value": 1
+      },
+      "learningOutcomes": [
+        "**Apply** the three opening principles: control the center, develop pieces, castle early.",
+        "**Evaluate** opening moves as good, okay, or bad based on these principles.",
+        "**Value** preparation \u2014 understanding that the opening sets the stage for everything that follows."
+      ],
+      "inquiryQuestion": "How do the first ten moves set the stage for the entire game \u2014 and why is controlling the center like building a house on solid ground?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 22,
+      "slug": "lesson-22-italian-spanish",
+      "title": "The Italian Game & Spanish Game",
+      "moduleRef": "Prompt 22",
+      "duration": "70 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2657",
+        "name": "Bishop",
+        "trait": "Classical Development",
+        "value": 3
+      },
+      "learningOutcomes": [
+        "**Play** the first 5-6 moves of the Italian Game (1.e4 e5 2.Nf3 Nc6 3.Bc4) and Spanish (3.Bb5).",
+        "**Explain** why these openings develop pieces toward the center.",
+        "**Value** tradition \u2014 understanding that classic patterns have lasted centuries for a reason."
+      ],
+      "inquiryQuestion": "Why have the Italian and Spanish openings been played for 500 years \u2014 and what makes a classic opening stand the test of time?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 23,
+      "slug": "lesson-23-sicilian-defense",
+      "title": "The Sicilian Defense",
+      "moduleRef": "Prompt 23",
+      "duration": "70 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Counter-Attack",
+        "value": 1
+      },
+      "learningOutcomes": [
+        "**Play** the first 5-6 moves of the Sicilian Defense (1.e4 c5).",
+        "**Explain** why Black gives up center control to fight for it later.",
+        "**Value** counter-punching \u2014 understanding that you don't always need to mirror your opponent's plan."
+      ],
+      "inquiryQuestion": "Why does Black let White control the center first \u2014 and how does fighting for it later create a sharper, more exciting game?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 24,
+      "slug": "lesson-24-pawn-structures",
+      "title": "Pawn Structures",
+      "moduleRef": "Prompt 24",
+      "duration": "70 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + analysis",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "The Skeleton of the Position",
+        "value": 1
+      },
+      "learningOutcomes": [
+        "**Identify** pawn chains, pawn islands, and passed pawns.",
+        "**Evaluate** which side has the better pawn structure.",
+        "**Value** structure \u2014 understanding that pawns are the bones of a position; everything else hangs on them."
+      ],
+      "inquiryQuestion": "Why do grandmasters say pawns are the soul of chess \u2014 and how do these little pieces shape the entire battlefield?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 25,
+      "slug": "lesson-25-piece-activity-outposts",
+      "title": "Piece Activity & Outposts",
+      "moduleRef": "Prompt 25",
+      "duration": "70 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + analysis",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2658",
+        "name": "Knight",
+        "trait": "Strong Squares",
+        "value": 3
+      },
+      "learningOutcomes": [
+        "**Identify** an outpost \u2014 a square in enemy territory protected by a pawn and unreachable by enemy pawns.",
+        "**Place** pieces on their most active squares.",
+        "**Value** positioning \u2014 understanding that where a piece stands is more important than what it threatens."
+      ],
+      "inquiryQuestion": "What makes a square 'strong' \u2014 and why is a Knight on an outpost worth more than a Knight in the corner?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 26,
+      "slug": "lesson-26-space-initiative",
+      "title": "Space & Initiative",
+      "moduleRef": "Prompt 26",
+      "duration": "70 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + analysis",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2656",
+        "name": "Rook",
+        "trait": "Controlling Territory",
+        "value": 5
+      },
+      "learningOutcomes": [
+        "**Evaluate** which side controls more space.",
+        "**Explain** the difference between having space and using it effectively.",
+        "**Value** aggression \u2014 understanding that controlling more squares forces the opponent into a defensive shell."
+      ],
+      "inquiryQuestion": "How does controlling more of the board force your opponent to shrink \u2014 and why is having space useless if you don't use it?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 27,
+      "slug": "lesson-27-weaknesses",
+      "title": "Weaknesses: Doubled, Isolated, Backward Pawns",
+      "moduleRef": "Prompt 27",
+      "duration": "70 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + analysis",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Structural Flaws",
+        "value": 1
+      },
+      "learningOutcomes": [
+        "**Identify** doubled, isolated, and backward pawns.",
+        "**Explain** why these pawn weaknesses are targets for the opponent.",
+        "**Value** solidity \u2014 understanding that a solid structure withstands pressure better than a flashy one."
+      ],
+      "inquiryQuestion": "Why are some pawns weak just because of who their neighbors are \u2014 and how do you turn your opponent's structural flaws into your targets?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 28,
+      "slug": "lesson-28-bishop-pair",
+      "title": "The Bishop Pair",
+      "moduleRef": "Prompt 28",
+      "duration": "70 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + analysis",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2657\u2657",
+        "name": "Bishop Pair",
+        "trait": "Color Control",
+        "value": 6
+      },
+      "learningOutcomes": [
+        "**Explain** why two bishops together are more valuable than bishop + knight.",
+        "**Identify** when preserving the bishop pair is worth avoiding trades.",
+        "**Value** synergy \u2014 understanding that two pieces working together are stronger than the sum of their parts."
+      ],
+      "inquiryQuestion": "Why are two Bishops worth more than Bishop + Knight \u2014 and what makes them the ultimate long-range team?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 29,
+      "slug": "lesson-29-good-bad-bishops",
+      "title": "Good vs Bad Bishops",
+      "moduleRef": "Prompt 29",
+      "duration": "70 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + analysis",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2657",
+        "name": "Bishop",
+        "trait": "Pawn Chains & Diagonals",
+        "value": 3
+      },
+      "learningOutcomes": [
+        "**Distinguish** between a good bishop (active, outside pawn chain) and a bad bishop (blocked by own pawns).",
+        "**Evaluate** when to trade a bad bishop for a knight.",
+        "**Value** honesty \u2014 understanding that admitting a piece is bad and trading it is smarter than pretending it's fine."
+      ],
+      "inquiryQuestion": "How can the same piece be a hero in one position and a prisoner in another \u2014 and when is trading your 'bad' bishop the smartest move?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 30,
+      "slug": "lesson-30-middlegame-planning",
+      "title": "Planning in the Middlegame",
+      "moduleRef": "Prompt 30",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + analysis engine",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2655",
+        "name": "Queen",
+        "trait": "Creating a Plan",
+        "value": 9
+      },
+      "learningOutcomes": [
+        "**Create** a plan from a middlegame position: identify weaknesses, find targets, choose an attack or improvement.",
+        "**Explain** the difference between having a plan and making random moves.",
+        "**Value** strategy \u2014 understanding that a mediocre plan is better than no plan at all."
+      ],
+      "inquiryQuestion": "How do you create a plan when there are no obvious captures \u2014 and why is a bad plan better than no plan?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 31,
+      "slug": "lesson-31-calculation-technique",
+      "title": "Calculation Technique",
+      "moduleRef": "Prompt 31",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + analysis engine",
+      "tier": "rook",
+      "piece": {
+        "emoji": "\u2656",
+        "name": "Rook",
+        "trait": "Deep Thinking",
+        "value": 5
+      },
+      "learningOutcomes": [
+        "**Apply** the calculation method: candidate moves \u2192 forcing lines \u2192 evaluation.",
+        "**Calculate** 2-3 moves ahead consistently.",
+        "**Value** discipline \u2014 understanding that calculation is a muscle that strengthens with practice."
+      ],
+      "inquiryQuestion": "How do grandmasters see five moves ahead \u2014 and what technique lets you calculate deeper without getting lost?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 32,
+      "slug": "lesson-32-zwischenzug",
+      "title": "Advanced Tactics: Zwischenzug",
+      "moduleRef": "Prompt 32",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + puzzles",
+      "tier": "rook",
+      "piece": {
+        "emoji": "\u2658",
+        "name": "Knight",
+        "trait": "The In-Between Move",
+        "value": 3
+      },
+      "learningOutcomes": [
+        "**Identify** when an intermediate move (zwischenzug) is stronger than the expected recapture.",
+        "**Create** a zwischenzug that changes the evaluation of a sequence.",
+        "**Value** surprise \u2014 understanding that the obvious move is not always the best move."
+      ],
+      "inquiryQuestion": "What happens when you play a surprising move in the middle of an expected sequence \u2014 and why is the 'in-between' move often the strongest?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 33,
+      "slug": "lesson-33-desperado",
+      "title": "Advanced Tactics: Desperado",
+      "moduleRef": "Prompt 33",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + puzzles",
+      "tier": "rook",
+      "piece": {
+        "emoji": "\u2657",
+        "name": "Bishop",
+        "trait": "Going Down Swinging",
+        "value": 3
+      },
+      "learningOutcomes": [
+        "**Identify** when a doomed piece can capture something on its way out.",
+        "**Calculate** a desperado sequence that minimizes losses.",
+        "**Value** resilience \u2014 understanding that even a losing piece can fight back before it falls."
+      ],
+      "inquiryQuestion": "What can a doomed piece do before it falls \u2014 and how do you make your last move count?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 34,
+      "slug": "lesson-34-rook-endgames",
+      "title": "Rook Endgames",
+      "moduleRef": "Prompt 34",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + analysis engine",
+      "tier": "rook",
+      "piece": {
+        "emoji": "\u2656",
+        "name": "Rook",
+        "trait": "Precision in Simplification",
+        "value": 5
+      },
+      "learningOutcomes": [
+        "**Play** the Lucena position (winning) and Philidor position (drawing) correctly.",
+        "**Explain** why rook + pawn vs rook is the most common endgame and must be learned.",
+        "**Value** precision \u2014 understanding that endgames are unforgiving and one mistake ruins everything."
+      ],
+      "inquiryQuestion": "Why do even grandmasters struggle with Rook endgames \u2014 and what makes the Lucena and Philidor positions essential?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 35,
+      "slug": "lesson-35-pawn-endgames",
+      "title": "Pawn Endgames",
+      "moduleRef": "Prompt 35",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + analysis engine",
+      "tier": "rook",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "The Purest Chess",
+        "value": 1
+      },
+      "learningOutcomes": [
+        "**Apply** opposition, triangulation, and the square rule in pawn endgames.",
+        "**Evaluate** whether a pawn will queen before the enemy King can stop it.",
+        "**Value** purity \u2014 understanding that pawn endgames teach you how pieces truly move because there are no tricks, only truth."
+      ],
+      "inquiryQuestion": "How can two Kings and a few pawns contain more depth than a board full of pieces \u2014 and why is the opposition the most important concept in chess?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 36,
+      "slug": "lesson-36-minor-piece-endgames",
+      "title": "Minor Piece Endgames",
+      "moduleRef": "Prompt 36",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + analysis engine",
+      "tier": "rook",
+      "piece": {
+        "emoji": "\u2657\u2658",
+        "name": "Bishop & Knight",
+        "trait": "Different Strengths",
+        "value": 3
+      },
+      "learningOutcomes": [
+        "**Evaluate** whether bishop or knight is stronger in a given endgame.",
+        "**Explain** why same-color bishop endgames are often draws.",
+        "**Value** nuance \u2014 understanding that the same pieces behave differently when most other pieces are gone."
+      ],
+      "inquiryQuestion": "Why is a Bishop sometimes a hero and sometimes a prisoner in the endgame \u2014 and how do you know which one you have?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 37,
+      "slug": "lesson-37-attacking-castled-king",
+      "title": "Attacking the Castled King",
+      "moduleRef": "Prompt 37",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + analysis engine",
+      "tier": "rook",
+      "piece": {
+        "emoji": "\u2655",
+        "name": "Queen",
+        "trait": "Breaking Through",
+        "value": 9
+      },
+      "learningOutcomes": [
+        "**Identify** when the kingside pawn shield is weak enough to attack.",
+        "**Create** an attack using sacrifices to open lines toward the King.",
+        "**Value** courage \u2014 understanding that attacking the enemy King requires both calculation and bravery."
+      ],
+      "inquiryQuestion": "How do you break through the wall of pawns protecting the King \u2014 and when is the right moment to sacrifice for a mating attack?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 38,
+      "slug": "lesson-38-counterplay-defense",
+      "title": "Counterplay & Defense",
+      "moduleRef": "Prompt 38",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + analysis engine",
+      "tier": "rook",
+      "piece": {
+        "emoji": "\u2654",
+        "name": "King",
+        "trait": "Surviving Under Fire",
+        "value": "Infinite"
+      },
+      "learningOutcomes": [
+        "**Identify** counter-attacking resources in a defensive position.",
+        "**Apply** prophylaxis \u2014 preventing the opponent's threats before they happen.",
+        "**Value** defense \u2014 understanding that great attackers are also great defenders."
+      ],
+      "inquiryQuestion": "How do you defend when your opponent has the initiative \u2014 and why is the best defense often a counter-attack?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 39,
+      "slug": "lesson-39-positional-sacrifices",
+      "title": "Positional Sacrifices",
+      "moduleRef": "Prompt 39",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + analysis engine",
+      "tier": "rook",
+      "piece": {
+        "emoji": "\u2655",
+        "name": "Queen",
+        "trait": "Giving for Gaining",
+        "value": 9
+      },
+      "learningOutcomes": [
+        "**Evaluate** when a sacrifice of material gives lasting positional compensation.",
+        "**Identify** common positional sacrifices: exchange sacrifice, pawn sacrifices for initiative.",
+        "**Value** investment \u2014 understanding that giving up something now for something better later is a life skill."
+      ],
+      "inquiryQuestion": "When is giving away your Queen (or Rook) for nothing immediate the best move \u2014 and how do you judge 'compensation'?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 40,
+      "slug": "lesson-40-transition-endgame",
+      "title": "Transition to Endgame",
+      "moduleRef": "Prompt 40",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + analysis engine",
+      "tier": "rook",
+      "piece": {
+        "emoji": "\u2656",
+        "name": "Rook",
+        "trait": "Simplifying to Win",
+        "value": 5
+      },
+      "learningOutcomes": [
+        "**Evaluate** when trading pieces helps you reach a winning endgame.",
+        "**Identify** which pieces to trade and which to keep.",
+        "**Value** transition \u2014 understanding that knowing when to switch from middlegame to endgame is a master skill."
+      ],
+      "inquiryQuestion": "How do you know when to stop attacking and start trading \u2014 and why is the transition to endgame the hardest phase to judge?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 41,
+      "slug": "lesson-41-advanced-opening-theory",
+      "title": "Advanced Opening Theory",
+      "moduleRef": "Prompt 41",
+      "duration": "80 min",
+      "ageGroup": "14-16",
+      "tool": "PGN viewer + analysis engine",
+      "tier": "queen",
+      "piece": {
+        "emoji": "\u2655",
+        "name": "Queen",
+        "trait": "Deep Knowledge",
+        "value": 9
+      },
+      "learningOutcomes": [
+        "**Navigate** 10+ moves deep in a chosen opening.",
+        "**Explain** the strategic ideas behind opening moves, not just memorizing them.",
+        "**Value** preparation \u2014 understanding that tournament success comes from homework, not just talent."
+      ],
+      "inquiryQuestion": "How do grandmasters memorize thousands of opening moves \u2014 and what is the difference between knowing a move and understanding it?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 42,
+      "slug": "lesson-42-prophylactic-thinking",
+      "title": "Prophylactic Thinking",
+      "moduleRef": "Prompt 42",
+      "duration": "80 min",
+      "ageGroup": "14-16",
+      "tool": "Physical board + analysis engine",
+      "tier": "queen",
+      "piece": {
+        "emoji": "\u2654",
+        "name": "King",
+        "trait": "Prevention",
+        "value": "Infinite"
+      },
+      "learningOutcomes": [
+        "**Identify** the opponent's plan before they execute it.",
+        "**Create** moves that prevent the opponent's threats rather than just reacting to them.",
+        "**Value** prevention \u2014 understanding that stopping a problem before it starts is better than solving it after."
+      ],
+      "inquiryQuestion": "How do you know what your opponent wants before they do it \u2014 and why is preventing their plan more powerful than reacting to it?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 43,
+      "slug": "lesson-43-initiative-vs-material",
+      "title": "The Initiative vs Material",
+      "moduleRef": "Prompt 43",
+      "duration": "80 min",
+      "ageGroup": "14-16",
+      "tool": "Physical board + analysis engine",
+      "tier": "queen",
+      "piece": {
+        "emoji": "\u2655",
+        "name": "Queen",
+        "trait": "Dynamic Balance",
+        "value": 9
+      },
+      "learningOutcomes": [
+        "**Evaluate** whether initiative (attack) or material (points) is more important in a given position.",
+        "**Explain** the concept of 'compensation' for sacrificed material.",
+        "**Value** judgment \u2014 understanding that chess has no formula; every decision is a judgment call."
+      ],
+      "inquiryQuestion": "When is attacking worth more than having extra pieces \u2014 and how do you judge when to trade material for initiative?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 44,
+      "slug": "lesson-44-time-trouble-practical",
+      "title": "Time Trouble & Practical Play",
+      "moduleRef": "Prompt 44",
+      "duration": "80 min",
+      "ageGroup": "14-16",
+      "tool": "Physical board + clock",
+      "tier": "queen",
+      "piece": {
+        "emoji": "\u2658",
+        "name": "Knight",
+        "trait": "Intuition Under Pressure",
+        "value": 3
+      },
+      "learningOutcomes": [
+        "**Manage** time in a game: when to think, when to play quickly.",
+        "**Apply** practical decision-making when low on time.",
+        "**Value** composure \u2014 understanding that panic is the enemy in time trouble."
+      ],
+      "inquiryQuestion": "How do great players think clearly when the clock is ticking down \u2014 and what separates calm intuition from panic?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 45,
+      "slug": "lesson-45-analysis-self-review",
+      "title": "Analysis & Self-Review",
+      "moduleRef": "Prompt 45",
+      "duration": "80 min",
+      "ageGroup": "14-16",
+      "tool": "PGN viewer + analysis engine",
+      "tier": "queen",
+      "piece": {
+        "emoji": "\u2656",
+        "name": "Rook",
+        "trait": "Honest Evaluation",
+        "value": 5
+      },
+      "learningOutcomes": [
+        "**Analyze** your own games to find mistakes and missed opportunities.",
+        "**Use** an engine to check analysis without becoming dependent on it.",
+        "**Value** honesty \u2014 understanding that the only way to improve is to admit your mistakes."
+      ],
+      "inquiryQuestion": "How do you learn more from your losses than your wins \u2014 and why is engine analysis a tool, not a crutch?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 46,
+      "slug": "lesson-46-teaching-others",
+      "title": "Teaching Chess to Others",
+      "moduleRef": "Prompt 46",
+      "duration": "80 min",
+      "ageGroup": "14-16",
+      "tool": "Physical board + teaching materials",
+      "tier": "king",
+      "piece": {
+        "emoji": "\u2654",
+        "name": "King",
+        "trait": "Wisdom & Generosity",
+        "value": "Infinite"
+      },
+      "learningOutcomes": [
+        "**Explain** a chess concept clearly to a beginner.",
+        "**Adapt** your explanation to the learner's level and learning style.",
+        "**Value** teaching \u2014 understanding that teaching is the final test of mastery."
+      ],
+      "inquiryQuestion": "How do you explain something you know deeply to someone who knows nothing \u2014 and why is teaching the truest test of understanding?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 47,
+      "slug": "lesson-47-creating-studies",
+      "title": "Creating Studies & Puzzles",
+      "moduleRef": "Prompt 47",
+      "duration": "80 min",
+      "ageGroup": "14-16",
+      "tool": "Physical board + PGN editor",
+      "tier": "king",
+      "piece": {
+        "emoji": "\u2655",
+        "name": "Queen",
+        "trait": "Creativity & Composition",
+        "value": 9
+      },
+      "learningOutcomes": [
+        "**Compose** an original chess puzzle with a clear tactical theme.",
+        "**Validate** that your puzzle has exactly one solution.",
+        "**Value** creativity \u2014 understanding that creating puzzles deepens understanding more than solving them."
+      ],
+      "inquiryQuestion": "How do you create a puzzle that is challenging but fair \u2014 and why is composing harder than solving?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 48,
+      "slug": "lesson-48-blindfold-chess",
+      "title": "Blindfold Chess",
+      "moduleRef": "Prompt 48",
+      "duration": "80 min",
+      "ageGroup": "14-16",
+      "tool": "Physical board (face-down) or verbal",
+      "tier": "king",
+      "piece": {
+        "emoji": "\u2657",
+        "name": "Bishop",
+        "trait": "Visualization",
+        "value": 3
+      },
+      "learningOutcomes": [
+        "**Visualize** a chess position without looking at the board.",
+        "**Play** 5-10 moves blindfolded with increasing accuracy.",
+        "**Value** imagination \u2014 understanding that the board exists in your mind, not just on the table."
+      ],
+      "inquiryQuestion": "How do grandmasters play entire games without seeing the board \u2014 and what does blindfold chess teach us about mental visualization?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 49,
+      "slug": "lesson-49-chess-psychology",
+      "title": "Chess Psychology",
+      "moduleRef": "Prompt 49",
+      "duration": "80 min",
+      "ageGroup": "14-16",
+      "tool": "Physical board + discussion",
+      "tier": "king",
+      "piece": {
+        "emoji": "\u2654",
+        "name": "King",
+        "trait": "Mental Strength",
+        "value": "Infinite"
+      },
+      "learningOutcomes": [
+        "**Identify** signs of tilt, overconfidence, and time panic in yourself and opponents.",
+        "**Apply** techniques to stay calm under pressure: breathing, routines, positive self-talk.",
+        "**Value** sportsmanship \u2014 understanding that how you win and lose defines you more than your rating."
+      ],
+      "inquiryQuestion": "Why do even the best players make terrible moves when they're upset \u2014 and how do you master your own mind before you master the board?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 50,
+      "slug": "lesson-50-your-chess-journey",
+      "title": "Your Chess Journey",
+      "moduleRef": "Prompt 50",
+      "duration": "80 min",
+      "ageGroup": "14-16",
+      "tool": "Physical board + goal-setting",
+      "tier": "king",
+      "piece": {
+        "emoji": "\u2654",
+        "name": "King",
+        "trait": "Lifelong Learning",
+        "value": "Infinite"
+      },
+      "learningOutcomes": [
+        "**Set** realistic chess goals: rating targets, tournament plans, study routines.",
+        "**Create** a personal study plan combining tactics, openings, endgames, and games analysis.",
+        "**Value** the journey \u2014 understanding that chess is not a destination but a lifelong path of improvement."
+      ],
+      "inquiryQuestion": "Where will chess take you next \u2014 and how do you keep improving when there is no final level to beat?",
+      "hasAssessment": true,
+      "hasDifferentiation": true,
+      "hasTeacherReflection": true
+    },
+    {
+      "number": 51,
+      "slug": "lesson-51-kings-pawn-opening",
+      "title": "The King's Pawn Opening",
+      "moduleRef": "Prompt 51",
+      "duration": "70 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + PGN viewer",
+      "tier": "knight",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "The DNA of Chess",
+        "value": 1
+      },
+      "category": "openings",
+      "openingFamily": "open-games",
+      "keyMoves": "1.e4 e5",
+      "learningOutcomes": [
+        "**Play** the first 5 moves of a 1.e4 e5 opening correctly.",
+        "**Explain** why both sides fight for the center with pawns.",
+        "**Value** tradition \u2014 understanding that this is how chess has been played for centuries."
+      ],
+      "inquiryQuestion": "Why has 1.e4 e5 been the most common first move pair for 500 years \u2014 and what does this simple pawn move unlock?"
+    },
+    {
+      "number": 52,
+      "slug": "lesson-52-italian-game",
+      "title": "The Italian Game",
+      "moduleRef": "Prompt 52",
+      "duration": "70 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2657",
+        "name": "Bishop",
+        "trait": "Classical Development",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "open-games",
+      "keyMoves": "1.e4 e5 2.Nf3 Nc6 3.Bc4",
+      "learningOutcomes": [
+        "**Play** the Italian Game through move 6 for both sides.",
+        "**Explain** why 3.Bc4 targets f7 and helps development.",
+        "**Value** clarity \u2014 understanding that simple, natural moves can be profoundly strong."
+      ],
+      "inquiryQuestion": "How does the Italian Game teach us that the simplest development is often the best \u2014 and why has it been played for centuries?"
+    },
+    {
+      "number": 53,
+      "slug": "lesson-53-evans-gambit",
+      "title": "The Evans Gambit",
+      "moduleRef": "Prompt 53",
+      "duration": "70 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + PGN viewer",
+      "tier": "knight",
+      "piece": {
+        "emoji": "\u2658",
+        "name": "Knight",
+        "trait": "Romantic Aggression",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "open-games",
+      "keyMoves": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4",
+      "learningOutcomes": [
+        "**Play** the Evans Gambit accepted and declined.",
+        "**Calculate** the compensation White gets for the sacrificed pawn.",
+        "**Value** courage \u2014 understanding that giving up a pawn for rapid development is a valid strategy."
+      ],
+      "inquiryQuestion": "Why would White give away a pawn on move 4 \u2014 and how does the Evans Gambit turn opening theory into an adventure?"
+    },
+    {
+      "number": 54,
+      "slug": "lesson-54-two-knights-defense",
+      "title": "The Two Knights Defense",
+      "moduleRef": "Prompt 54",
+      "duration": "70 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + PGN viewer",
+      "tier": "knight",
+      "piece": {
+        "emoji": "\u2658",
+        "name": "Knight",
+        "trait": "Sharp Counterplay",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "open-games",
+      "keyMoves": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6",
+      "learningOutcomes": [
+        "**Play** the Two Knights Defense through move 8.",
+        "**Identify** the key tactical motifs in the Traxler and Fried Liver lines.",
+        "**Value** boldness \u2014 understanding that defending actively can be more powerful than passive defense."
+      ],
+      "inquiryQuestion": "How does Black's second knight turn a calm Italian Game into a tactical battlefield \u2014 and who benefits from the chaos?"
+    },
+    {
+      "number": 55,
+      "slug": "lesson-55-fried-liver-attack",
+      "title": "The Fried Liver Attack",
+      "moduleRef": "Prompt 55",
+      "duration": "70 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + PGN viewer",
+      "tier": "knight",
+      "piece": {
+        "emoji": "\u2658",
+        "name": "Knight",
+        "trait": "Aggressive Surprise",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "open-games",
+      "keyMoves": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5",
+      "learningOutcomes": [
+        "**Execute** the Fried Liver Attack against the Two Knights Defense.",
+        "**Defend** against the Fried Liver using the Traxler or Na5.",
+        "**Value** calculation \u2014 understanding that sharp attacks require precise defense."
+      ],
+      "inquiryQuestion": "Is the Fried Liver Attack a brilliant trap or a reckless gamble \u2014 and how do you survive it as Black?"
+    },
+    {
+      "number": 56,
+      "slug": "lesson-56-ruy-lopez",
+      "title": "The Ruy Lopez (Spanish)",
+      "moduleRef": "Prompt 56",
+      "duration": "70 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2657",
+        "name": "Bishop",
+        "trait": "The Eternal Opening",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "open-games",
+      "keyMoves": "1.e4 e5 2.Nf3 Nc6 3.Bb5",
+      "learningOutcomes": [
+        "**Play** the Ruy Lopez Exchange and Closed variations through move 8.",
+        "**Explain** why 3.Bb5 is more subtle than 3.Bc4.",
+        "**Value** patience \u2014 understanding that the Spanish takes time to unfold but rewards deep study."
+      ],
+      "inquiryQuestion": "Why is the Ruy Lopez called 'the Spanish Torture' \u2014 and how does a simple bishop move on move 3 create decades of theory?"
+    },
+    {
+      "number": 57,
+      "slug": "lesson-57-scotch-game",
+      "title": "The Scotch Game",
+      "moduleRef": "Prompt 57",
+      "duration": "70 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Direct and Modern",
+        "value": 1
+      },
+      "category": "openings",
+      "openingFamily": "open-games",
+      "keyMoves": "1.e4 e5 2.Nf3 Nc6 3.d4",
+      "learningOutcomes": [
+        "**Play** the Scotch Game main lines through move 8.",
+        "**Compare** the Scotch to the Italian and Ruy Lopez.",
+        "**Value** directness \u2014 understanding that opening the center early has both risks and rewards."
+      ],
+      "inquiryQuestion": "How does the Scotch Game blast open the center on move 3 \u2014 and when is direct aggression better than quiet buildup?"
+    },
+    {
+      "number": 58,
+      "slug": "lesson-58-petroff-defense",
+      "title": "The Petroff Defense",
+      "moduleRef": "Prompt 58",
+      "duration": "70 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Solid and Symmetrical",
+        "value": 1
+      },
+      "category": "openings",
+      "openingFamily": "open-games",
+      "keyMoves": "1.e4 e5 2.Nf3 Nf6",
+      "learningOutcomes": [
+        "**Play** the Petroff main line through move 8.",
+        "**Explain** why Black mirrors White's move and what they hope to achieve.",
+        "**Value** solidity \u2014 understanding that not every opening needs to be sharp to be strong."
+      ],
+      "inquiryQuestion": "How does Black copying White's move 2 create one of the most solid defenses in chess \u2014 and why do aggressive players hate facing it?"
+    },
+    {
+      "number": 59,
+      "slug": "lesson-59-vienna-game",
+      "title": "The Vienna Game",
+      "moduleRef": "Prompt 59",
+      "duration": "70 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + PGN viewer",
+      "tier": "knight",
+      "piece": {
+        "emoji": "\u2658",
+        "name": "Knight",
+        "trait": "Quiet but Dangerous",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "open-games",
+      "keyMoves": "1.e4 e5 2.Nc3",
+      "learningOutcomes": [
+        "**Play** the Vienna Game through move 6.",
+        "**Explain** the difference between the Vienna and the Italian.",
+        "**Value** flexibility \u2014 understanding that delaying Nf3 keeps options open."
+      ],
+      "inquiryQuestion": "What happens when White waits to develop the knight to f3 \u2014 and how does the Vienna Game hide its teeth?"
+    },
+    {
+      "number": 60,
+      "slug": "lesson-60-ponziani-opening",
+      "title": "The Ponziani Opening",
+      "moduleRef": "Prompt 60",
+      "duration": "70 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Forgotten but Sound",
+        "value": 1
+      },
+      "category": "openings",
+      "openingFamily": "open-games",
+      "keyMoves": "1.e4 e5 2.Nf3 Nc6 3.c3",
+      "learningOutcomes": [
+        "**Play** the Ponziani Opening through move 8.",
+        "**Explain** the ideas behind 3.c3 and the d4 break.",
+        "**Value** exploration \u2014 understanding that unpopular openings can be effective surprises."
+      ],
+      "inquiryQuestion": "Why did the Ponziani disappear from top-level chess \u2014 and why might it be the perfect surprise weapon for you?"
+    },
+    {
+      "number": 61,
+      "slug": "lesson-61-sicilian-introduction",
+      "title": "Sicilian Defense: Introduction",
+      "moduleRef": "Prompt 61",
+      "duration": "70 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Black Fights for d4",
+        "value": 1
+      },
+      "category": "openings",
+      "openingFamily": "sicilian",
+      "keyMoves": "1.e4 c5",
+      "learningOutcomes": [
+        "**Explain** why 1...c5 is the most popular reply to 1.e4.",
+        "**Identify** the strategic themes of the Sicilian: pawn break ...d5, semi-open c-file, queenside counterplay.",
+        "**Value** fighting spirit \u2014 understanding that Black can play for a win from move 1."
+      ],
+      "inquiryQuestion": "Why does Black give up the center on move 1 \u2014 and how does the Sicilian turn defense into a counter-attack?"
+    },
+    {
+      "number": 62,
+      "slug": "lesson-62-sicilian-najdorf",
+      "title": "Sicilian: Najdorf Variation",
+      "moduleRef": "Prompt 62",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "rook",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "The Crown Jewel",
+        "value": 1
+      },
+      "category": "openings",
+      "openingFamily": "sicilian",
+      "keyMoves": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6",
+      "learningOutcomes": [
+        "**Play** the Najdorf through move 10 for both sides.",
+        "**Explain** the significance of ...a6 and the English Attack (Be3, f3, Qd2, O-O-O).",
+        "**Value** depth \u2014 understanding that the Najdorf is chess's deepest opening ocean."
+      ],
+      "inquiryQuestion": "Why has the Najdorf been the battleground for world champions for 70 years \u2014 and what makes 5...a6 so important?"
+    },
+    {
+      "number": 63,
+      "slug": "lesson-63-sicilian-dragon",
+      "title": "Sicilian: Dragon Variation",
+      "moduleRef": "Prompt 63",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "rook",
+      "piece": {
+        "emoji": "\u2657",
+        "name": "Bishop",
+        "trait": "Fianchetto and Attack",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "sicilian",
+      "keyMoves": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6",
+      "learningOutcomes": [
+        "**Play** the Dragon through move 10.",
+        "**Identify** the Yugoslav Attack (Be3, f3, Qd2, O-O-O) and Black's counterplay on the c-file.",
+        "**Value** bravery \u2014 understanding that castling on opposite sides means both players are racing to attack."
+      ],
+      "inquiryQuestion": "How does the Dragon's fianchettoed bishop turn the Sicilian into a race of opposite-side attacks \u2014 and who reaches the king first?"
+    },
+    {
+      "number": 64,
+      "slug": "lesson-64-sicilian-scheveningen",
+      "title": "Sicilian: Scheveningen",
+      "moduleRef": "Prompt 64",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "rook",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Flexible Center",
+        "value": 1
+      },
+      "category": "openings",
+      "openingFamily": "sicilian",
+      "keyMoves": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e6",
+      "learningOutcomes": [
+        "**Play** the Scheveningen through move 10.",
+        "**Explain** the ...e6/...d6 pawn chain and the central breaks ...e5 and ...d5.",
+        "**Value** flexibility \u2014 understanding that keeping options open is a strength."
+      ],
+      "inquiryQuestion": "How does the Scheveningen's flexible center let Black choose their plan \u2014 and why is flexibility sometimes sharper than aggression?"
+    },
+    {
+      "number": 65,
+      "slug": "lesson-65-sicilian-taimanov",
+      "title": "Sicilian: Taimanov Variation",
+      "moduleRef": "Prompt 65",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "rook",
+      "piece": {
+        "emoji": "\u2658",
+        "name": "Knight",
+        "trait": "Solid and Tricky",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "sicilian",
+      "keyMoves": "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6",
+      "learningOutcomes": [
+        "**Play** the Taimanov through move 10.",
+        "**Explain** Black's plan of ...Nge7, ...a6, and ...Qc7.",
+        "**Value** subtlety \u2014 understanding that quiet development can hide dangerous intentions."
+      ],
+      "inquiryQuestion": "How does the Taimanov's quiet knight development set up a flexible middlegame \u2014 and why is it a favorite of modern grandmasters?"
+    },
+    {
+      "number": 66,
+      "slug": "lesson-66-sicilian-kan",
+      "title": "Sicilian: Kan (Paulsen)",
+      "moduleRef": "Prompt 66",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "rook",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Hypermodern Patience",
+        "value": 1
+      },
+      "category": "openings",
+      "openingFamily": "sicilian",
+      "keyMoves": "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6",
+      "learningOutcomes": [
+        "**Play** the Kan through move 10.",
+        "**Explain** the ...a6/...b5 queenside expansion plan.",
+        "**Value** patience \u2014 understanding that waiting for the right moment to strike is a valid strategy."
+      ],
+      "inquiryQuestion": "How does the Kan's patient ...a6 prepare a long-term queenside attack \u2014 and when does patience turn to power?"
+    },
+    {
+      "number": 67,
+      "slug": "lesson-67-sicilian-classical",
+      "title": "Sicilian: Classical Variation",
+      "moduleRef": "Prompt 67",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2658",
+        "name": "Knight",
+        "trait": "Old Main Line",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "sicilian",
+      "keyMoves": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6",
+      "learningOutcomes": [
+        "**Play** the Classical Sicilian through move 10.",
+        "**Explain** the differences between Classical and Najdorf/Dragon.",
+        "**Value** tradition \u2014 understanding that older lines are still playable at all levels."
+      ],
+      "inquiryQuestion": "What happened to the Classical Sicilian after the Najdorf took over \u2014 and why is it still a reliable choice?"
+    },
+    {
+      "number": 68,
+      "slug": "lesson-68-sicilian-alapin",
+      "title": "Sicilian: Alapin (2.c3)",
+      "moduleRef": "Prompt 68",
+      "duration": "70 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Avoiding Theory",
+        "value": 1
+      },
+      "category": "openings",
+      "openingFamily": "sicilian",
+      "keyMoves": "1.e4 c5 2.c3",
+      "learningOutcomes": [
+        "**Play** the Alapin through move 8.",
+        "**Explain** why White avoids the main-line Open Sicilian.",
+        "**Value** pragmatism \u2014 understanding that sidestepping theory is a legitimate strategy."
+      ],
+      "inquiryQuestion": "How does 2.c3 avoid the Sicilian jungle \u2014 and why do some players prefer a quiet life over theoretical warfare?"
+    },
+    {
+      "number": 69,
+      "slug": "lesson-69-sicilian-closed",
+      "title": "Sicilian: Closed (2.Nc3)",
+      "moduleRef": "Prompt 69",
+      "duration": "70 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2658",
+        "name": "Knight",
+        "trait": "Quiet Grand Prix",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "sicilian",
+      "keyMoves": "1.e4 c5 2.Nc3",
+      "learningOutcomes": [
+        "**Play** the Closed Sicilian through move 8.",
+        "**Explain** the kingside buildup with g3, Bg2, f4.",
+        "**Value** restraint \u2014 understanding that not every position needs to be opened immediately."
+      ],
+      "inquiryQuestion": "How does the Closed Sicilian build an attack without opening the center \u2014 and when does quiet become deadly?"
+    },
+    {
+      "number": 70,
+      "slug": "lesson-70-sicilian-grand-prix",
+      "title": "Sicilian: Grand Prix Attack",
+      "moduleRef": "Prompt 70",
+      "duration": "70 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + PGN viewer",
+      "tier": "knight",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Aggressive Wing",
+        "value": 1
+      },
+      "category": "openings",
+      "openingFamily": "sicilian",
+      "keyMoves": "1.e4 c5 2.f4",
+      "learningOutcomes": [
+        "**Play** the Grand Prix Attack through move 8.",
+        "**Explain** the kingside pawn storm with f4, Nf3, Bc4.",
+        "**Value** aggression \u2014 understanding that a direct pawn storm on the kingside can outweigh queenside counterplay."
+      ],
+      "inquiryQuestion": "How does the Grand Prix Attack's pawn storm challenge the Sicilian's queenside counterplay \u2014 and who wins the race?"
+    },
+    {
+      "number": 71,
+      "slug": "lesson-71-french-winawer",
+      "title": "French Defense: Winawer Variation",
+      "moduleRef": "Prompt 71",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "rook",
+      "piece": {
+        "emoji": "\u2657",
+        "name": "Bishop",
+        "trait": "Sharp and Complex",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "semi-open",
+      "keyMoves": "1.e4 e6 2.d4 d5 3.Nc3 Bb4",
+      "learningOutcomes": [
+        "**Play** the Winawer through move 10.",
+        "**Explain** the pin on c3 and the pawn structure after ...dxc4.",
+        "**Value** complexity \u2014 understanding that the most complex positions reward the most study."
+      ],
+      "inquiryQuestion": "How does Black's bishop pin turn the French into a razor-sharp battle \u2014 and why is the Winawer feared by White players?"
+    },
+    {
+      "number": 72,
+      "slug": "lesson-72-french-classical-tarrasch",
+      "title": "French Defense: Classical and Tarrasch",
+      "moduleRef": "Prompt 72",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Solid and Positional",
+        "value": 1
+      },
+      "category": "openings",
+      "openingFamily": "semi-open",
+      "keyMoves": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 / 3.Nd2",
+      "learningOutcomes": [
+        "**Play** the Classical French and Tarrasch through move 10.",
+        "**Explain** the blocked center and the ...c5/...f6 pawn breaks.",
+        "**Value** resilience \u2014 understanding that cramped positions can become powerful if survived."
+      ],
+      "inquiryQuestion": "How does the French Defense's cramped position turn into a dangerous counter-attack \u2014 and why do players love suffering?"
+    },
+    {
+      "number": 73,
+      "slug": "lesson-73-caro-kann",
+      "title": "The Caro-Kann Defense",
+      "moduleRef": "Prompt 73",
+      "duration": "70 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Solid and Reliable",
+        "value": 1
+      },
+      "category": "openings",
+      "openingFamily": "semi-open",
+      "keyMoves": "1.e4 c6",
+      "learningOutcomes": [
+        "**Play** the Caro-Kann main line through move 8.",
+        "**Explain** the ...d5 break and the light-squared bishop development.",
+        "**Value** reliability \u2014 understanding that solid openings build confidence."
+      ],
+      "inquiryQuestion": "Why is the Caro-Kann called the 'easy French' \u2014 and what makes it the most reliable defense for beginners?"
+    },
+    {
+      "number": 74,
+      "slug": "lesson-74-pirc-defense",
+      "title": "The Pirc Defense",
+      "moduleRef": "Prompt 74",
+      "duration": "70 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "knight",
+      "piece": {
+        "emoji": "\u2658",
+        "name": "Knight",
+        "trait": "Hypermodern Counter",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "semi-open",
+      "keyMoves": "1.e4 d6 2.d4 Nf6",
+      "learningOutcomes": [
+        "**Play** the Pirc through move 8.",
+        "**Explain** the hypermodern idea of inviting White forward then countering.",
+        "**Value** counter-punching \u2014 understanding that letting the opponent overextend is a strategy."
+      ],
+      "inquiryQuestion": "How does the Pirc invite White to build a big center \u2014 and why is that exactly what Black wants?"
+    },
+    {
+      "number": 75,
+      "slug": "lesson-75-modern-defense",
+      "title": "The Modern Defense",
+      "moduleRef": "Prompt 75",
+      "duration": "70 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2657",
+        "name": "Bishop",
+        "trait": "Flexible Fianchetto",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "semi-open",
+      "keyMoves": "1.e4 g6",
+      "learningOutcomes": [
+        "**Play** the Modern through move 8.",
+        "**Explain** the ...Bg7/...d6 setup and the ...c5/...d5 breaks.",
+        "**Value** flexibility \u2014 understanding that delaying the center fight creates options."
+      ],
+      "inquiryQuestion": "How does 1...g6 flip opening theory on its head \u2014 and when is delaying the center fight better than joining it?"
+    },
+    {
+      "number": 76,
+      "slug": "lesson-76-alekhine-defense",
+      "title": "Alekhine's Defense",
+      "moduleRef": "Prompt 76",
+      "duration": "70 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "knight",
+      "piece": {
+        "emoji": "\u2658",
+        "name": "Knight",
+        "trait": "Provocative and Deep",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "semi-open",
+      "keyMoves": "1.e4 Nf6",
+      "learningOutcomes": [
+        "**Play** the Alekhine through move 8.",
+        "**Explain** the provocative idea of attacking the e4 pawn from the start.",
+        "**Value** audacity \u2014 understanding that challenging conventions can be brilliant."
+      ],
+      "inquiryQuestion": "How does attacking White's center on move 1 create one of chess's most provocative defenses \u2014 and is it genius or madness?"
+    },
+    {
+      "number": 77,
+      "slug": "lesson-77-scandinavian",
+      "title": "The Scandinavian Defense",
+      "moduleRef": "Prompt 77",
+      "duration": "60 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + PGN viewer",
+      "tier": "knight",
+      "piece": {
+        "emoji": "\u2655",
+        "name": "Queen",
+        "trait": "Early Queen Development",
+        "value": 9
+      },
+      "category": "openings",
+      "openingFamily": "semi-open",
+      "keyMoves": "1.e4 d5",
+      "learningOutcomes": [
+        "**Play** the Scandinavian through move 6.",
+        "**Explain** why bringing the queen out early is usually bad \u2014 and why it works here.",
+        "**Value** simplicity \u2014 understanding that the easiest openings to learn can still be effective."
+      ],
+      "inquiryQuestion": "Why is bringing the queen out on move 2 usually a mistake \u2014 and how does the Scandinavian make it work anyway?"
+    },
+    {
+      "number": 78,
+      "slug": "lesson-78-rare-defenses",
+      "title": "Rare Defenses to 1.e4",
+      "moduleRef": "Prompt 78",
+      "duration": "60 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + PGN viewer",
+      "tier": "knight",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Surprises and Gambits",
+        "value": 1
+      },
+      "category": "openings",
+      "openingFamily": "semi-open",
+      "keyMoves": "Various",
+      "learningOutcomes": [
+        "**Identify** Owen's Defense, Nimzowitsch Defense, and St. George Defense.",
+        "**Play** one rare defense through move 6.",
+        "**Value** creativity \u2014 understanding that unconventional paths can catch opponents off guard."
+      ],
+      "inquiryQuestion": "What happens when Black ignores the main lines entirely \u2014 and when is a 'bad' opening actually a brilliant surprise?"
+    },
+    {
+      "number": 79,
+      "slug": "lesson-79-queens-gambit-declined",
+      "title": "Queen's Gambit Declined",
+      "moduleRef": "Prompt 79",
+      "duration": "70 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Classical and Solid",
+        "value": 1
+      },
+      "category": "openings",
+      "openingFamily": "closed-games",
+      "keyMoves": "1.d4 d5 2.c4 e6",
+      "learningOutcomes": [
+        "**Play** the QGD through move 8.",
+        "**Explain** why Black declines the gambit and fights for the center.",
+        "**Value** classical principles \u2014 understanding that declining a gambit can be as principled as accepting it."
+      ],
+      "inquiryQuestion": "Why does Black say 'no thank you' to the free pawn \u2014 and what makes the Queen's Gambit Declined one of the oldest and most solid defenses?"
+    },
+    {
+      "number": 80,
+      "slug": "lesson-80-queens-gambit-accepted",
+      "title": "Queen's Gambit Accepted",
+      "moduleRef": "Prompt 80",
+      "duration": "70 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Accepting the Challenge",
+        "value": 1
+      },
+      "category": "openings",
+      "openingFamily": "closed-games",
+      "keyMoves": "1.d4 d5 2.c4 dxc4",
+      "learningOutcomes": [
+        "**Play** the QGA through move 8.",
+        "**Explain** Black's plan to hold the extra pawn or return it for development.",
+        "**Value** pragmatism \u2014 understanding that taking material and then giving it back is a valid plan."
+      ],
+      "inquiryQuestion": "What happens when Black takes the gambit pawn \u2014 and how does the QGA turn a gambit into a battle of development?"
+    },
+    {
+      "number": 81,
+      "slug": "lesson-81-slav-defense",
+      "title": "The Slav Defense",
+      "moduleRef": "Prompt 81",
+      "duration": "70 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Solid and Popular",
+        "value": 1
+      },
+      "category": "openings",
+      "openingFamily": "closed-games",
+      "keyMoves": "1.d4 d5 2.c4 c6",
+      "learningOutcomes": [
+        "**Play** the Slav through move 8.",
+        "**Explain** the ...c6/...dxc4/...b5 pawn capture plan.",
+        "**Value** solidity \u2014 understanding that the Slav combines solidity with counterattacking potential."
+      ],
+      "inquiryQuestion": "How does the Slav Defense protect d5 while keeping the c8-bishop active \u2014 and why is it a favorite at all levels?"
+    },
+    {
+      "number": 82,
+      "slug": "lesson-82-semi-slav",
+      "title": "The Semi-Slav Defense",
+      "moduleRef": "Prompt 82",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "rook",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Complex and Rich",
+        "value": 1
+      },
+      "category": "openings",
+      "openingFamily": "closed-games",
+      "keyMoves": "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 e6",
+      "learningOutcomes": [
+        "**Play** the Semi-Slav through move 10.",
+        "**Explain** the Meran and Anti-Merlins.",
+        "**Value** complexity \u2014 understanding that the Semi-Slav is a lifetime study."
+      ],
+      "inquiryQuestion": "How does the Semi-Slav combine Slav solidity with Nimzo-Indian complexity \u2014 and why is it called a 'high-maintenance' opening?"
+    },
+    {
+      "number": 83,
+      "slug": "lesson-83-london-system",
+      "title": "The London System",
+      "moduleRef": "Prompt 83",
+      "duration": "60 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2657",
+        "name": "Bishop",
+        "trait": "Universal and Easy",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "closed-games",
+      "keyMoves": "1.d4 d5 2.Bf4",
+      "learningOutcomes": [
+        "**Play** the London System through move 8.",
+        "**Explain** why the London is popular with beginners and professionals alike.",
+        "**Value** consistency \u2014 understanding that a reliable opening builds confidence."
+      ],
+      "inquiryQuestion": "How does the London System's simple setup work against almost anything Black plays \u2014 and why do some players call it 'boring' while others call it 'bulletproof'?"
+    },
+    {
+      "number": 84,
+      "slug": "lesson-84-torre-colle",
+      "title": "The Torre Attack and Colle System",
+      "moduleRef": "Prompt 84",
+      "duration": "60 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2657",
+        "name": "Bishop",
+        "trait": "Quiet Development",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "closed-games",
+      "keyMoves": "1.d4 d5 2.Nf3 e6 3.Bg5 / 3.e3",
+      "learningOutcomes": [
+        "**Play** the Torre Attack and Colle System through move 8.",
+        "**Explain** the e3/e4 pawn break and the Bd3/Nbd2 setup.",
+        "**Value** elegance \u2014 understanding that quiet development can lead to beautiful attacks."
+      ],
+      "inquiryQuestion": "How do the Torre and Colle build an attack without ever seeming threatening \u2014 and when does quiet become devastating?"
+    },
+    {
+      "number": 85,
+      "slug": "lesson-85-stonewall-attack",
+      "title": "The Stonewall Attack",
+      "moduleRef": "Prompt 85",
+      "duration": "60 min",
+      "ageGroup": "10-12",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Dutch-Style from White",
+        "value": 1
+      },
+      "category": "openings",
+      "openingFamily": "closed-games",
+      "keyMoves": "1.d4 d5 2.e3 Nf6 3.Bd3 c5 4.c3 Nc6 5.f4",
+      "learningOutcomes": [
+        "**Play** the Stonewall through move 8.",
+        "**Explain** the fixed pawn chain and the kingside attack plan.",
+        "**Value** commitment \u2014 understanding that committing to a plan fully is better than half-measures."
+      ],
+      "inquiryQuestion": "How does the Stonewall's rigid pawn structure become a launching pad for kingside attacks \u2014 and why is rigidity sometimes a strength?"
+    },
+    {
+      "number": 86,
+      "slug": "lesson-86-kings-indian",
+      "title": "The King's Indian Defense",
+      "moduleRef": "Prompt 86",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "rook",
+      "piece": {
+        "emoji": "\u2657",
+        "name": "Bishop",
+        "trait": "Dynamic and Brave",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "indian",
+      "keyMoves": "1.d4 Nf6 2.c4 g6",
+      "learningOutcomes": [
+        "**Play** the KID through move 10.",
+        "**Explain** the ...d6/...e5 pawn chain and the kingside attack.",
+        "**Value** bravery \u2014 understanding that allowing White the center can lead to a devastating counter-attack."
+      ],
+      "inquiryQuestion": "How does the King's Indian turn a passive-looking setup into one of chess's most explosive attacks \u2014 and why do attackers love it?"
+    },
+    {
+      "number": 87,
+      "slug": "lesson-87-grunfeld",
+      "title": "The Gr\u00fcnfeld Defense",
+      "moduleRef": "Prompt 87",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "rook",
+      "piece": {
+        "emoji": "\u2658",
+        "name": "Knight",
+        "trait": "Central Counter-Strike",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "indian",
+      "keyMoves": "1.d4 Nf6 2.c4 g6 3.Nc3 d5",
+      "learningOutcomes": [
+        "**Play** the Gr\u00fcnfeld through move 10.",
+        "**Explain** the ...d5 break and the pressure on d4.",
+        "**Value** counter-punching \u2014 understanding that attacking the center from the side is hypermodern mastery."
+      ],
+      "inquiryQuestion": "How does the Gr\u00fcnfeld's ...d5 break challenge everything White built \u2014 and why is it the perfect weapon for counter-attacking players?"
+    },
+    {
+      "number": 88,
+      "slug": "lesson-88-nimzo-indian",
+      "title": "The Nimzo-Indian Defense",
+      "moduleRef": "Prompt 88",
+      "duration": "80 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "rook",
+      "piece": {
+        "emoji": "\u2657",
+        "name": "Bishop",
+        "trait": "Bishop Pin Strategy",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "indian",
+      "keyMoves": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4",
+      "learningOutcomes": [
+        "**Play** the Nimzo-Indian through move 10.",
+        "**Explain** the ...Bb4 pin and the doubled pawn strategy.",
+        "**Value** prophylaxis \u2014 understanding that pinning the knight is as much about preventing as attacking."
+      ],
+      "inquiryQuestion": "How does pinning the knight on c3 win the game before any pieces are captured \u2014 and why is the Nimzo a positional masterpiece?"
+    },
+    {
+      "number": 89,
+      "slug": "lesson-89-queens-indian",
+      "title": "The Queen's Indian Defense",
+      "moduleRef": "Prompt 89",
+      "duration": "70 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2657",
+        "name": "Bishop",
+        "trait": "Solid Fianchetto",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "indian",
+      "keyMoves": "1.d4 Nf6 2.c4 e6 3.Nf3 b6",
+      "learningOutcomes": [
+        "**Play** the Queen's Indian through move 8.",
+        "**Explain** the ...Bb7 fianchetto and the ...d5/...c5 breaks.",
+        "**Value** solidity \u2014 understanding that not every Indian Defense needs to be tactical."
+      ],
+      "inquiryQuestion": "How does the Queen's Indian's quiet fianchetto create long-term positional pressure \u2014 and when does solid become dangerous?"
+    },
+    {
+      "number": 90,
+      "slug": "lesson-90-bogo-indian",
+      "title": "The Bogo-Indian Defense",
+      "moduleRef": "Prompt 90",
+      "duration": "70 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2657",
+        "name": "Bishop",
+        "trait": "Quiet Pressure",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "indian",
+      "keyMoves": "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+",
+      "learningOutcomes": [
+        "**Play** the Bogo-Indian through move 8.",
+        "**Explain** the ...Bb4+ check and the ...Ne4/...Bb7 setups.",
+        "**Value** flexibility \u2014 understanding that checking to gain time is a valid strategy."
+      ],
+      "inquiryQuestion": "How does a simple check on move 3 create a flexible and solid defense \u2014 and why is the Bogo the Nimzo's quieter cousin?"
+    },
+    {
+      "number": 91,
+      "slug": "lesson-91-benoni",
+      "title": "The Benoni Defense",
+      "moduleRef": "Prompt 91",
+      "duration": "70 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "knight",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Aggressive Pawn Sacrifice",
+        "value": 1
+      },
+      "category": "openings",
+      "openingFamily": "indian",
+      "keyMoves": "1.d4 Nf6 2.c4 c5",
+      "learningOutcomes": [
+        "**Play** the Benoni through move 8.",
+        "**Explain** the ...c5 break and the queenside pawn majority.",
+        "**Value** aggression \u2014 understanding that pawn sacrifices in the opening create dynamic play."
+      ],
+      "inquiryQuestion": "How does the Benoni's pawn sacrifice on move 2 create one of chess's most imbalanced positions \u2014 and who benefits from the chaos?"
+    },
+    {
+      "number": 92,
+      "slug": "lesson-92-benko-gambit",
+      "title": "The Benko Gambit",
+      "moduleRef": "Prompt 92",
+      "duration": "70 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "knight",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Sharp and Theoretical",
+        "value": 1
+      },
+      "category": "openings",
+      "openingFamily": "indian",
+      "keyMoves": "1.d4 Nf6 2.c4 c5 3.d5 b5",
+      "learningOutcomes": [
+        "**Play** the Benko through move 8.",
+        "**Explain** the ...b5 pawn sacrifice and the queenside pressure.",
+        "**Value** initiative \u2014 understanding that giving a pawn for long-term pressure is a valid strategy."
+      ],
+      "inquiryQuestion": "How does the Benko Gambit turn a pawn sacrifice into a queenside stranglehold \u2014 and why do attacking players love it?"
+    },
+    {
+      "number": 93,
+      "slug": "lesson-93-english-opening",
+      "title": "The English Opening",
+      "moduleRef": "Prompt 93",
+      "duration": "70 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2659",
+        "name": "Pawn",
+        "trait": "Flexible and Rich",
+        "value": 1
+      },
+      "category": "openings",
+      "openingFamily": "flank",
+      "keyMoves": "1.c4",
+      "learningOutcomes": [
+        "**Play** the English Opening through move 8.",
+        "**Explain** the ...e5/...c5 symmetry breaks and the g3/Bg2 setup.",
+        "**Value** flexibility \u2014 understanding that controlling the center from the side creates rich positions."
+      ],
+      "inquiryQuestion": "How does 1.c4 control the center without occupying it \u2014 and why is the English one of the most flexible openings in chess?"
+    },
+    {
+      "number": 94,
+      "slug": "lesson-94-reti-opening",
+      "title": "The R\u00e9ti Opening",
+      "moduleRef": "Prompt 94",
+      "duration": "70 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2658",
+        "name": "Knight",
+        "trait": "Hypermodern Classic",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "flank",
+      "keyMoves": "1.Nf3 d5 2.c4",
+      "learningOutcomes": [
+        "**Play** the R\u00e9ti through move 8.",
+        "**Explain** the ...d4/...dxc4 central tension and the fianchetto plans.",
+        "**Value** subtlety \u2014 understanding that indirect control can be as powerful as direct occupation."
+      ],
+      "inquiryQuestion": "How does the R\u00e9ti's knight-and-pawn duo control the center without pawns on e4/d4 \u2014 and why did this opening revolutionize chess?"
+    },
+    {
+      "number": 95,
+      "slug": "lesson-95-kings-indian-attack",
+      "title": "The King's Indian Attack",
+      "moduleRef": "Prompt 95",
+      "duration": "70 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2657",
+        "name": "Bishop",
+        "trait": "Universal Setup",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "flank",
+      "keyMoves": "1.Nf3 d5 2.g3",
+      "learningOutcomes": [
+        "**Play** the KIA through move 8.",
+        "**Explain** the g3/Bg2/e4/d3/Nbd2/O-O setup and its transpositions.",
+        "**Value** universality \u2014 understanding that one setup can be played against almost anything."
+      ],
+      "inquiryQuestion": "How does the King's Indian Attack use the same setup against every defense \u2014 and when is universalism better than specialization?"
+    },
+    {
+      "number": 96,
+      "slug": "lesson-96-nimzo-larsen",
+      "title": "The Nimzo-Larsen Attack",
+      "moduleRef": "Prompt 96",
+      "duration": "60 min",
+      "ageGroup": "12-14",
+      "tool": "Physical board + PGN viewer",
+      "tier": "bishop",
+      "piece": {
+        "emoji": "\u2657",
+        "name": "Bishop",
+        "trait": "Fianchetto from the Flank",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "flank",
+      "keyMoves": "1.b3",
+      "learningOutcomes": [
+        "**Play** the Nimzo-Larsen through move 8.",
+        "**Explain** the Bb2 fianchetto and the e4/d4 central control.",
+        "**Value** originality \u2014 understanding that flank openings can lead to unique positions."
+      ],
+      "inquiryQuestion": "How does 1.b3's quiet fianchetto create positions that no other opening reaches \u2014 and why do creative players love it?"
+    },
+    {
+      "number": 97,
+      "slug": "lesson-97-transpositions",
+      "title": "Transpositions and Opening Families",
+      "moduleRef": "Prompt 97",
+      "duration": "70 min",
+      "ageGroup": "14-16",
+      "tool": "Physical board + PGN viewer",
+      "tier": "queen",
+      "piece": {
+        "emoji": "\u2655",
+        "name": "Queen",
+        "trait": "The Hidden Connections",
+        "value": 9
+      },
+      "category": "openings",
+      "openingFamily": "mastery",
+      "keyMoves": "Various",
+      "learningOutcomes": [
+        "**Identify** when different move orders lead to the same position.",
+        "**Explain** how transpositions help you avoid your opponent's preparation.",
+        "**Value** knowledge \u2014 understanding that seeing connections between openings deepens your understanding."
+      ],
+      "inquiryQuestion": "How can 1.c4 and 1.Nf3 lead to the same position \u2014 and why do grandmasters use transpositions as weapons?"
+    },
+    {
+      "number": 98,
+      "slug": "lesson-98-opening-traps",
+      "title": "Opening Traps and Pitfalls",
+      "moduleRef": "Prompt 98",
+      "duration": "70 min",
+      "ageGroup": "14-16",
+      "tool": "Physical board + PGN viewer",
+      "tier": "queen",
+      "piece": {
+        "emoji": "\u2658",
+        "name": "Knight",
+        "trait": "Learn from Others' Pain",
+        "value": 3
+      },
+      "category": "openings",
+      "openingFamily": "mastery",
+      "keyMoves": "Various",
+      "learningOutcomes": [
+        "**Identify** 10 common opening traps across different openings.",
+        "**Avoid** falling into traps and recognize when your opponent is setting one.",
+        "**Value** awareness \u2014 understanding that knowing traps helps you avoid them and set them."
+      ],
+      "inquiryQuestion": "What are the most common traps in the first 10 moves \u2014 and how do you avoid them while trying to set your own?"
+    },
+    {
+      "number": 99,
+      "slug": "lesson-99-building-repertoire",
+      "title": "Building Your Opening Repertoire",
+      "moduleRef": "Prompt 99",
+      "duration": "80 min",
+      "ageGroup": "14-16",
+      "tool": "Physical board + PGN viewer",
+      "tier": "king",
+      "piece": {
+        "emoji": "\u2654",
+        "name": "King",
+        "trait": "Your Personal Toolbox",
+        "value": "Infinite"
+      },
+      "category": "openings",
+      "openingFamily": "mastery",
+      "keyMoves": "Various",
+      "learningOutcomes": [
+        "**Choose** 2-3 openings for White and 2-3 defenses for Black based on your style.",
+        "**Explain** the difference between a narrow repertoire and a broad one.",
+        "**Value** self-knowledge \u2014 understanding that your openings should match your personality."
+      ],
+      "inquiryQuestion": "How do you choose the openings that fit your style \u2014 and why is a small, deep repertoire better than a large, shallow one?"
+    },
+    {
+      "number": 100,
+      "slug": "lesson-100-tournament-preparation",
+      "title": "Opening Preparation for Tournament Play",
+      "moduleRef": "Prompt 100",
+      "duration": "80 min",
+      "ageGroup": "14-16",
+      "tool": "Physical board + PGN viewer + analysis engine",
+      "tier": "king",
+      "piece": {
+        "emoji": "\u2654",
+        "name": "King",
+        "trait": "The Final Exam",
+        "value": "Infinite"
+      },
+      "category": "openings",
+      "openingFamily": "mastery",
+      "keyMoves": "Various",
+      "learningOutcomes": [
+        "**Prepare** 10 moves deep in your chosen openings.",
+        "**Explain** how to use databases and engines for opening study.",
+        "**Value** preparation \u2014 understanding that tournament success comes from homework, not just talent."
+      ],
+      "inquiryQuestion": "How do grandmasters prepare openings for a specific opponent \u2014 and what does tournament-level opening study look like?"
+    }
+  ],
+  "volume": "1",
+  "totalLessons": 100
+}
