@@ -9,13 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "chess.js": "^1.0.0",
+    "framer-motion": "^11.0.0",
+    "lucide-react": "^0.400.0",
+    "marked": "^12.0.2",
     "next": "14.2.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "chess.js": "^1.0.0",
     "react-chessboard": "^4.2.0",
-    "framer-motion": "^11.0.0",
-    "lucide-react": "^0.400.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",

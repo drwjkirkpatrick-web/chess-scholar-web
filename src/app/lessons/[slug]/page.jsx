@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import PageShell from '@/components/PageShell';
+import LessonContent from '@/components/LessonContent';
 import { getAllLessons, getLessonBySlug, getTiers } from '@/lib/data-client';
 
 export function generateStaticParams() {
@@ -94,12 +95,9 @@ export default function LessonPage({ params }) {
           </div>
         )}
 
-        {/* Content placeholder */}
+        {/* Full Lesson Plan */}
         <div className="card mb-8">
-          <p className="text-chess-barkLight text-center py-8">
-            📖 Full lesson content coming soon. This lesson plan is available in the 
-            <a href="https://github.com/drwjkirkpatrick-web/chess-scholar" className="text-chess-bishop underline">Chess Scholar curriculum repo</a>.
-          </p>
+          <LessonContent slug={lesson.slug} />
         </div>
 
         {/* Prev/Next Navigation */}
