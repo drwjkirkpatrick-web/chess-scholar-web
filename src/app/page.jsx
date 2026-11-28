@@ -11,7 +11,7 @@ export default function HomePage() {
   return (
     <PageShell>
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-chess-bark via-chess-barkLight to-chess-gold text-white">
+      <section className="relative overflow-hidden bg-gradient-to-br from-chess-bark via-chess-barkLight to-chess-cream text-white">
         <div className="absolute inset-0 opacity-10 text-9xl flex items-center justify-center select-none pointer-events-none">
           ♟️♞♝♜♛♚
         </div>
